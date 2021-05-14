@@ -1,0 +1,47 @@
+#cabecalho{
+
+	text-align: right;
+}
+
+#valor{
+
+	text-align: center;
+
+}
+
+td{
+
+	text-align: center;
+	height: 75px;
+}
+
+tr{
+
+	text-align: center;
+	height: 75px;
+}
+
+th{
+
+	text-align: center;
+	height: 75px;
+
+}
+
+#data{
+
+	font-size: 18px;
+
+}
+
+body{
+
+	border: 15px solid red;
+	border-width: 15px;
+}
+
+#fora{
+
+	background: red;
+}
+

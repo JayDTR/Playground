@@ -1,0 +1,20 @@
+Pasta Inicial SoQuartos 
+
+Pasta PHP + Ficheiros na root Soquartos | FrontEnd 
+
+SoQuartos|Admin|Dark| Ficheiros nesta root + pasta de PHP fazem o BackEnd
+
+Está tudo dinamico menos o grafico na pagina geral de uma casa.
+
+Full Calendar apenas apresenta o aluguer e não permite quaisquer alterações dentro do full callendar (Que era o objetivo final, mudar a data do aluguer pelo calendario).
+
+
+backend esta dividido por 
+
+Casa_main / Quarto_Main -> Pagina em si
+
+PHP/Casa_mainX (x= 1-4 ), são cada uma das 4 divisoes dessa pagina
+
+Se precisar de mais alguma coisa nao hesite.
+
+966033905 - João Raposo
