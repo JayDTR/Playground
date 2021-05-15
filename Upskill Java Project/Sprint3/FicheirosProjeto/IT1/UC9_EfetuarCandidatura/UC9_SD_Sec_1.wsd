@@ -1,0 +1,29 @@
+@startuml
+autonumber
+
+title SD_getAnunciosElegiveisFree(free)
+
+participant "ranu:\nRegistoAnuncios" as RANU
+participant ": List<Anuncios>" as LA
+participant "listaAnu:\n List<Anuncios>" as LA
+participant "anu:\nAnuncio" as ANUN
+participant "free:\nFreelancer" as FREE
+
+activate RANU
+RANU -> RANU : listaAnu=getAnunciosElegiveisFree(free)
+activate RANU
+RANU -> LA **:create()
+loop [ Para cada anúncio registado ]
+RANU -> LA : anu = get(i)
+
+RANU -> ANUN: aceita = aceitaCandidaturas()
+OPT [ aceita == true ]
+RANU -> ANUN: b = isFreelancerElegivel(free)
+OPT [ b == true ]
+RANU -> LA : add(anu)
+end OPT
+end OPT
+end loop
+
+deactivate RANU
+@enduml

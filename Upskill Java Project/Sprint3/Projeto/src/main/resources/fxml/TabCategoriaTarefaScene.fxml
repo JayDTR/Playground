@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="544.0" prefWidth="804.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.ui.TabCategoriaTarefaUI">
+   <center>
+      <AnchorPane prefHeight="413.0" prefWidth="602.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane prefHeight="544.0" prefWidth="804.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="502.0" minWidth="10.0" prefWidth="351.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="453.0" minWidth="10.0" prefWidth="453.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="507.0" minHeight="10.0" prefHeight="487.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="200.0" minHeight="10.0" prefHeight="57.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TableView fx:id="tableViewCategoriaTarefa" onMouseClicked="#mouseTabCat" prefHeight="538.0" prefWidth="351.0">
+                     <columns>
+                        <TableColumn fx:id="tableViewCatTarefaDesc" prefWidth="200.0" text="Descrição" />
+                        <TableColumn fx:id="tableViewCatTarefaAreaAtividade" prefWidth="155.0" text="Área de Atividade" />
+                     </columns>
+                  </TableView>
+                  <AnchorPane prefHeight="385.0" prefWidth="297.0" GridPane.columnIndex="1">
+                     <children>
+                        <GridPane layoutY="-1.0" prefHeight="500.0" prefWidth="452.0">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="179.0" minHeight="10.0" prefHeight="35.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="490.0" minHeight="10.0" prefHeight="471.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label layoutY="5.0" text="Lista de Competências Técnicas" GridPane.halignment="CENTER">
+                                 <font>
+                                    <Font name="Helvetica Light" size="13.0" />
+                                 </font>
+                              </Label>
+                              <TableView fx:id="listViewCatTarefaListCompTecnica" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="465.0" prefWidth="452.0" GridPane.rowIndex="1">
+                                <columns>
+                                  <TableColumn fx:id="listViewCatTarefaCatTecnica" prefWidth="180.0" text="Comp. Técnica" />
+                                    <TableColumn fx:id="listViewCatTarefaCatTecnicaGrau" prefWidth="170.0" text="Grau Mínimo" />
+                                  <TableColumn fx:id="listViewCatTarefaCatTecnicaMandatory" prefWidth="102.0" text="Obrigatório" />
+                                </columns>
+                              </TableView>
+                           </children>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+                  <AnchorPane prefHeight="93.0" prefWidth="453.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <children>
+                        <Button defaultButton="true" layoutX="219.0" layoutY="5.0" mnemonicParsing="false" onAction="#actionAdicionarNovaCatTarefa" prefHeight="30.0" prefWidth="220.0" text="Adicionar Categoria de Tarefa">
+                           <font>
+                              <Font name="Helvetica" size="13.0" />
+                           </font></Button>
+                     </children>
+                  </AnchorPane>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

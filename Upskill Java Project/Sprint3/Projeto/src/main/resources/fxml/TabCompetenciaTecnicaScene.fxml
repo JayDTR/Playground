@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="543.0" prefWidth="805.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.ui.TabCompetenciaTecnicaUI">
+    <center>
+        <AnchorPane prefHeight="542.0" prefWidth="797.0" BorderPane.alignment="CENTER">
+            <children>
+                <GridPane alignment="CENTER" layoutX="1.0" layoutY="1.0" prefHeight="543.0" prefWidth="800.0">
+                    <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="880.0" minWidth="10.0" prefWidth="509.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="397.0" minWidth="0.0" prefWidth="296.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints maxHeight="512.0" minHeight="10.0" prefHeight="471.0" vgrow="SOMETIMES" />
+                        <RowConstraints maxHeight="192.0" minHeight="10.0" prefHeight="72.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                    <children>
+                        <TableView fx:id="tableViewCompTecnica" onMouseClicked="#mouseTabComp" prefHeight="508.0" prefWidth="368.0">
+                            <columns>
+                                <TableColumn fx:id="tableViewCodUnico" prefWidth="90.0" text="Código Único" />
+                                <TableColumn fx:id="tableViewAreaAtividade" prefWidth="120.0" text="Área de Atividade" />
+                                <TableColumn fx:id="tableViewDescBreve" prefWidth="120.0" text="Descrição Breve" />
+                                <TableColumn fx:id="tableViewDescDetalhada" prefWidth="183.0" text="Descrição Detalhada" />
+                            </columns>
+                        </TableView>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" GridPane.columnIndex="1">
+                     <children>
+                        <GridPane layoutX="-2.0" layoutY="8.0" prefHeight="492.0" prefWidth="300.0">
+                           <children>
+                              <Label text="Lista de Graus de Proficiencia" GridPane.halignment="CENTER">
+                                 <font>
+                                    <Font name="Helvetica Light" size="13.0" />
+                                 </font>
+                              </Label>
+                              <TableView fx:id="listViewCompTecListaGrauProf" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="298.0" GridPane.rowIndex="1">
+                                 <columns>
+                                    <TableColumn fx:id="listViewCompTecnicaGrauValor" text="Valor" />
+                                    <TableColumn fx:id="listViewCompTecnicaGrauDesigna" prefWidth="219.0" text="Designação" />
+                                 </columns>
+                              </TableView>
+                           </children>
+                           <columnConstraints>
+                              <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                           </columnConstraints>
+                           <rowConstraints>
+                              <RowConstraints maxHeight="179.0" minHeight="0.0" prefHeight="29.0" vgrow="SOMETIMES" />
+                              <RowConstraints maxHeight="500.0" minHeight="10.0" prefHeight="471.0" vgrow="SOMETIMES" />
+                           </rowConstraints>
+                        </GridPane>
+                     </children>
+                  </AnchorPane>
+                          <Button alignment="CENTER" contentDisplay="CENTER" defaultButton="true" mnemonicParsing="false" onAction="#actionAdicionarNovaCT" prefHeight="30.0" prefWidth="230.0" text="Adicionar Competência Técnica" GridPane.columnIndex="1" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                              <GridPane.margin>
+                                  <Insets right="10.0" />
+                              </GridPane.margin>
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                          </Button>
+                    </children>
+                </GridPane>
+            </children>
+        </AnchorPane>
+    </center>
+</BorderPane>

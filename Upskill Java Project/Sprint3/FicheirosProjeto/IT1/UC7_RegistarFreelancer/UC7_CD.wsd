@@ -1,0 +1,140 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+left to right direction
+
+class RegistarFreelancerUI {
+    
+}
+
+class RegistarFreelancerController {
+    
+  +novoFrelancer(nome, nif, endpost, tele, email)
+  +novaHabilitacaoAcademica(grau, descCurso, instituicao, medCurso)
+  +getListaCTComGraus()
+  +novoReconhecimentoCT(data, codCT, valorGP)
+  +registaFreelancer()  
+}
+
+class Plataforma {
+  -String designacao
+  
+  +RegistoFreelancer getRegistoFreelancer()
+  +RegistoCT getRegistoCT()
+  +getAlgoritmoGeradorPwd()
+  +getAutorizacaoFacade()
+}
+
+class RegistoCT {
+    +getListaCTComGraus()
+    +getCT(codCT)
+}
+
+class CompetenciaTecnica {
+  -String codigo
+  -String descBreve
+  -String descDetalhada
+
+  +getGrauProficiencia(valorGP)
+}
+
+class GrauProficiencia {
+  -Integer valor
+  -String designacao
+}
+
+class RegistoFreelancer {
+    
+  +Freelancer novoFrelancer(nome, nif, endpost, tele, email)
+  +registaFreelancer(fr)
+  -validaFreelancer(fr)
+  -addFreelancer(fr)
+  -registaFreelancerComoUtilizador()
+  -enviaEmail(nome, email, pwd)
+  
+}
+
+class Freelancer {
+  -String nome
+  -String NIF
+  -String telefone
+  -String email
+
+   +Freelancer(nome, nif, endpost, tele, email)
+   +novaHabilitacaoAcademica(grau, descCurso, instituicao, medCurso)
+   -addHabilitacaoAcademica(ha)
+   +novoReconhecimentoCT(data, compTecnica, grauProficiencia)
+   -addReconhecimento(rct)
+   +getEmail()
+   +getNome()
+}
+
+class HabilitacaoAcademica {
+  -String grau
+  -String designacao 
+  -String instituicao 
+  -String media
+
+  +HabilitacaoAcademica(grau, descCurso, instituicao, medCurso)
+}
+
+class ReconhecimentoCompetenciaTecnica {
+  -String data
+  -String competenciaTecnica
+  -String grauProficiencia
+  
+  +ReconhecimentoCT(data, compTecnica, grauProficiencia)
+}
+
+class EnderecoPostal {
+  -String local
+  -String codPostal
+  -String localidade
+  
+  +EnderecoPostal(endPostal)
+}
+
+
+class Utilizador {
+  -String nome
+  -String email
+  -String password
+}
+
+class AutorizacaoFacade {
+   +registaUtilizadorComPapeis(nome,email,pwd,listaPapel)
+}
+
+interface AlgoritmoGeradorPasswords  <<interface>>{
+  +geraPassword(nome,email)
+}
+
+CompetenciaTecnica "1" --- "*" GrauProficiencia : aplica  >
+
+RegistarFreelancerUI ..> RegistarFreelancerController
+RegistarFreelancerController ..> Plataforma
+RegistarFreelancerController ..> RegistoFreelancer
+RegistarFreelancerController ..> Freelancer
+Plataforma  "1" --> "1" RegistoCT
+Plataforma  "1" --> "1" RegistoFreelancer
+
+RegistoCT "1" --> "*" CompetenciaTecnica
+
+RegistoFreelancer "1" --> "*" Freelancer : tem registados
+Freelancer "1" --> "0..*" HabilitacaoAcademica: tem
+Freelancer "1" --> "0..*" ReconhecimentoCompetenciaTecnica: recebe(u)
+Freelancer "1" --> "1" EnderecoPostal: tem
+Freelancer "0..1" --> "1" Utilizador: atua como
+
+
+ReconhecimentoCompetenciaTecnica "*" --> "1" CompetenciaTecnica: relativa a >
+ReconhecimentoCompetenciaTecnica "*" --> "1" GrauProficiencia: reconhe >
+
+AlgoritmoGeradorPasswords "1" -- "0..*" Utilizador: gera password >
+RegistoFreelancer ..> AutorizacaoFacade
+AutorizacaoFacade ..> Utilizador
+AlgoritmoGeradorPasswords <.l. RegistoFreelancer
+
+
+
+@enduml

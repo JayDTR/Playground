@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="544.0" prefWidth="804.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.ui.TabAreasAtividadeUI">
+   <center>
+      <AnchorPane BorderPane.alignment="CENTER">
+         <children>
+            <GridPane layoutX="1.0" prefHeight="520.0" prefWidth="800.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="544.0" minHeight="10.0" prefHeight="494.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="192.0" minHeight="0.0" prefHeight="31.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TableView fx:id="tableViewTarefas" prefHeight="531.0" prefWidth="804.0">
+                     <columns>
+                        <TableColumn fx:id="tableViewAreaAtividadeCodUnico" maxWidth="800.0" prefWidth="162.0" text="Código Único" />
+                        <TableColumn fx:id="tableViewAreaAtividadeDescBreve" prefWidth="177.0" text="Descrição Breve" />
+                        <TableColumn fx:id="tableViewAreaAtividadeDescDetalhada" prefWidth="464.0" text="Descrição Detalhada" />
+                     </columns>
+                  </TableView>
+                  <GridPane alignment="CENTER" prefHeight="70.0" prefWidth="800.0" GridPane.rowIndex="1">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints halignment="RIGHT" hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <Button fx:id="btnAdicionarNovaTarefa" defaultButton="true" mnemonicParsing="false" onAction="#actionAdicionarNovaTarefa" prefHeight="30.0" prefWidth="200.0" text="Adicionar Área de Atividade" GridPane.columnIndex="1">
+                           <GridPane.margin>
+                              <Insets right="10.0" />
+                           </GridPane.margin>
+                           <font>
+                              <Font name="Helvetica" size="13.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </GridPane>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

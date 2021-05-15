@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1284px" preserveAspectRatio="none" style="width:1281px;height:1284px;" version="1.1" viewBox="0 0 1281 1284" width="1281px" zoomAndPan="magnify"><defs><filter height="300%" id="f1krlwvd2vlgwf" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[807977ceb130c090ed5febfb6de2bdea]
+class Organizacao--><rect codeLine="5" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="117.1797" id="Organizacao" style="stroke:#A80036;stroke-width:1.5;" width="129" x="306.12" y="198"/><ellipse cx="333.72" cy="214" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M334.6419,211.3906 L334.6419,218.0469 L335.7981,218.0469 Q336.4075,218.0469 336.6575,218.2813 Q336.9231,218.5156 336.9231,218.9063 Q336.9231,219.2813 336.6575,219.5156 Q336.4075,219.75 335.7981,219.75 L331.8138,219.75 Q331.1888,219.75 330.9231,219.5156 Q330.6731,219.2813 330.6731,218.8906 Q330.6731,218.5156 330.9231,218.2813 Q331.1888,218.0469 331.8138,218.0469 L332.9388,218.0469 L332.9388,211.3906 L331.095,211.3906 L331.095,213 Q331.095,213.6094 330.8606,213.875 Q330.6263,214.1406 330.2513,214.1406 Q329.8763,214.1406 329.6419,213.875 Q329.4075,213.6094 329.4075,213 L329.4075,209.6875 L338.22,209.6875 L338.22,213 Q338.22,213.6094 337.97,213.875 Q337.7356,214.1406 337.3606,214.1406 Q336.9856,214.1406 336.7513,213.875 Q336.5169,213.6094 336.5169,213 L336.5169,211.3906 L334.6419,211.3906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="69" x="350.52" y="218.9102">Organizacao</text><line style="stroke:#A80036;stroke-width:1.5;" x1="307.12" x2="434.12" y1="230" y2="230"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="312.12" y="245.4189">NIF &lt; PK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="71" x="312.12" y="259.2549">email&lt;FK | UK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="312.12" y="273.0908">idEnderecoPostal &lt; FK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="82" x="312.12" y="286.9268">emailGestor&lt;FK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="312.12" y="300.7627">website</text><line style="stroke:#A80036;stroke-width:1.5;" x1="307.12" x2="434.12" y1="307.1797" y2="307.1797"/><!--MD5=[ac8682ea5466d223e49472789fb200d2]
+class Colaborador--><rect codeLine="13" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="75.6719" id="Colaborador" style="stroke:#A80036;stroke-width:1.5;" width="141" x="81.12" y="444.5"/><ellipse cx="114.12" cy="460.5" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M115.0419,457.8906 L115.0419,464.5469 L116.1981,464.5469 Q116.8075,464.5469 117.0575,464.7813 Q117.3231,465.0156 117.3231,465.4063 Q117.3231,465.7813 117.0575,466.0156 Q116.8075,466.25 116.1981,466.25 L112.2138,466.25 Q111.5888,466.25 111.3231,466.0156 Q111.0731,465.7813 111.0731,465.3906 Q111.0731,465.0156 111.3231,464.7813 Q111.5888,464.5469 112.2138,464.5469 L113.3388,464.5469 L113.3388,457.8906 L111.495,457.8906 L111.495,459.5 Q111.495,460.1094 111.2606,460.375 Q111.0263,460.6406 110.6513,460.6406 Q110.2763,460.6406 110.0419,460.375 Q109.8075,460.1094 109.8075,459.5 L109.8075,456.1875 L118.62,456.1875 L118.62,459.5 Q118.62,460.1094 118.37,460.375 Q118.1356,460.6406 117.7606,460.6406 Q117.3856,460.6406 117.1513,460.375 Q116.9169,460.1094 116.9169,459.5 L116.9169,457.8906 L115.0419,457.8906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="69" x="132.12" y="465.4102">Colaborador</text><line style="stroke:#A80036;stroke-width:1.5;" x1="82.12" x2="221.12" y1="476.5" y2="476.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="129" x="87.12" y="491.9189">emailColaborador&lt;PK | FK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="87.12" y="505.7549">NIFOrganizacao &lt; FK &gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="82.12" x2="221.12" y1="512.1719" y2="512.1719"/><!--MD5=[dcda844062f930f807532403427d3023]
+class EnderecoPostal--><rect codeLine="18" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="103.3438" id="EnderecoPostal" style="stroke:#A80036;stroke-width:1.5;" width="120" x="328.62" y="431"/><ellipse cx="343.62" cy="447" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M344.5419,444.3906 L344.5419,451.0469 L345.6981,451.0469 Q346.3075,451.0469 346.5575,451.2813 Q346.8231,451.5156 346.8231,451.9063 Q346.8231,452.2813 346.5575,452.5156 Q346.3075,452.75 345.6981,452.75 L341.7138,452.75 Q341.0888,452.75 340.8231,452.5156 Q340.5731,452.2813 340.5731,451.8906 Q340.5731,451.5156 340.8231,451.2813 Q341.0888,451.0469 341.7138,451.0469 L342.8388,451.0469 L342.8388,444.3906 L340.995,444.3906 L340.995,446 Q340.995,446.6094 340.7606,446.875 Q340.5263,447.1406 340.1513,447.1406 Q339.7763,447.1406 339.5419,446.875 Q339.3075,446.6094 339.3075,446 L339.3075,442.6875 L348.12,442.6875 L348.12,446 Q348.12,446.6094 347.87,446.875 Q347.6356,447.1406 347.2606,447.1406 Q346.8856,447.1406 346.6513,446.875 Q346.4169,446.6094 346.4169,446 L346.4169,444.3906 L344.5419,444.3906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="88" x="357.62" y="451.9102">EnderecoPostal</text><line style="stroke:#A80036;stroke-width:1.5;" x1="329.62" x2="447.62" y1="463" y2="463"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="334.62" y="478.4189">id &lt; PK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="36" x="334.62" y="492.2549">morada</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="61" x="334.62" y="506.0908">codigopostal</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="334.62" y="519.9268">localidade</text><line style="stroke:#A80036;stroke-width:1.5;" x1="329.62" x2="447.62" y1="526.3438" y2="526.3438"/><!--MD5=[27c2d4bbe9f7b9d3b0ea2797cc54308a]
+class Tarefa--><rect codeLine="25" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="172.5234" id="Tarefa" style="stroke:#A80036;stroke-width:1.5;" width="135" x="240.12" y="622"/><ellipse cx="285.87" cy="638" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M286.7919,635.3906 L286.7919,642.0469 L287.9481,642.0469 Q288.5575,642.0469 288.8075,642.2813 Q289.0731,642.5156 289.0731,642.9063 Q289.0731,643.2813 288.8075,643.5156 Q288.5575,643.75 287.9481,643.75 L283.9638,643.75 Q283.3388,643.75 283.0731,643.5156 Q282.8231,643.2813 282.8231,642.8906 Q282.8231,642.5156 283.0731,642.2813 Q283.3388,642.0469 283.9638,642.0469 L285.0888,642.0469 L285.0888,635.3906 L283.245,635.3906 L283.245,637 Q283.245,637.6094 283.0106,637.875 Q282.7763,638.1406 282.4013,638.1406 Q282.0263,638.1406 281.7919,637.875 Q281.5575,637.6094 281.5575,637 L281.5575,633.6875 L290.37,633.6875 L290.37,637 Q290.37,637.6094 290.12,637.875 Q289.8856,638.1406 289.5106,638.1406 Q289.1356,638.1406 288.9013,637.875 Q288.6669,637.6094 288.6669,637 L288.6669,635.3906 L286.7919,635.3906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="35" x="306.37" y="642.9102">Tarefa</text><line style="stroke:#A80036;stroke-width:1.5;" x1="241.12" x2="374.12" y1="654" y2="654"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="84" x="246.12" y="669.4189">referencia &lt; PK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="246.12" y="683.2549">designacao</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="246.12" y="697.0908">descInformal</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="62" x="246.12" y="710.9268">descTecnica</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="55" x="246.12" y="724.7627">duracaoEst</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="246.12" y="738.5986">custoEst</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="246.12" y="752.4346">emailColaborador &lt; FK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="123" x="246.12" y="766.2705">NIFOrganizacao&lt;PK | FK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="246.12" y="780.1064">idCatTar &lt; FK &gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="241.12" x2="374.12" y1="786.5234" y2="786.5234"/><!--MD5=[5dd1d6732c071e710b9290b531f2fa3b]
+class Utilizador--><rect codeLine="37" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="89.5078" id="Utilizador" style="stroke:#A80036;stroke-width:1.5;" width="83" x="919.12" y="13.5"/><ellipse cx="934.12" cy="29.5" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M935.0419,26.8906 L935.0419,33.5469 L936.1981,33.5469 Q936.8075,33.5469 937.0575,33.7813 Q937.3231,34.0156 937.3231,34.4063 Q937.3231,34.7813 937.0575,35.0156 Q936.8075,35.25 936.1981,35.25 L932.2138,35.25 Q931.5888,35.25 931.3231,35.0156 Q931.0731,34.7813 931.0731,34.3906 Q931.0731,34.0156 931.3231,33.7813 Q931.5888,33.5469 932.2138,33.5469 L933.3388,33.5469 L933.3388,26.8906 L931.495,26.8906 L931.495,28.5 Q931.495,29.1094 931.2606,29.375 Q931.0263,29.6406 930.6513,29.6406 Q930.2763,29.6406 930.0419,29.375 Q929.8075,29.1094 929.8075,28.5 L929.8075,25.1875 L938.62,25.1875 L938.62,28.5 Q938.62,29.1094 938.37,29.375 Q938.1356,29.6406 937.7606,29.6406 Q937.3856,29.6406 937.1513,29.375 Q936.9169,29.1094 936.9169,28.5 L936.9169,26.8906 L935.0419,26.8906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="51" x="948.12" y="34.4102">Utilizador</text><line style="stroke:#A80036;stroke-width:1.5;" x1="920.12" x2="1001.12" y1="45.5" y2="45.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="58" x="925.12" y="60.9189">email &lt; PK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="26" x="925.12" y="74.7549">nome</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="39" x="925.12" y="88.5908">telefone</text><line style="stroke:#A80036;stroke-width:1.5;" x1="920.12" x2="1001.12" y1="95.0078" y2="95.0078"/><!--MD5=[1f687b5315377fe49fca59b457947463]
+class Freelancer--><rect codeLine="43" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="89.5078" id="Freelancer" style="stroke:#A80036;stroke-width:1.5;" width="129" x="497.12" y="211.5"/><ellipse cx="529.22" cy="227.5" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M530.1419,224.8906 L530.1419,231.5469 L531.2981,231.5469 Q531.9075,231.5469 532.1575,231.7813 Q532.4231,232.0156 532.4231,232.4063 Q532.4231,232.7813 532.1575,233.0156 Q531.9075,233.25 531.2981,233.25 L527.3138,233.25 Q526.6888,233.25 526.4231,233.0156 Q526.1731,232.7813 526.1731,232.3906 Q526.1731,232.0156 526.4231,231.7813 Q526.6888,231.5469 527.3138,231.5469 L528.4388,231.5469 L528.4388,224.8906 L526.595,224.8906 L526.595,226.5 Q526.595,227.1094 526.3606,227.375 Q526.1263,227.6406 525.7513,227.6406 Q525.3763,227.6406 525.1419,227.375 Q524.9075,227.1094 524.9075,226.5 L524.9075,223.1875 L533.72,223.1875 L533.72,226.5 Q533.72,227.1094 533.47,227.375 Q533.2356,227.6406 532.8606,227.6406 Q532.4856,227.6406 532.2513,227.375 Q532.0169,227.1094 532.0169,226.5 L532.0169,224.8906 L530.1419,224.8906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="59" x="547.02" y="232.4102">Freelancer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="498.12" x2="625.12" y1="243.5" y2="243.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="49" x="503.12" y="258.9189">NIF &lt; PK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="100" x="503.12" y="272.7549">emailUser&lt; FK | UK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="117" x="503.12" y="286.5908">idEnderecoPostal &lt; FK &gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="498.12" x2="625.12" y1="293.0078" y2="293.0078"/><!--MD5=[6fa14b346b4b5c2b3247f8e7c37afd04]
+class CategoriaTarefa--><rect codeLine="49" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="89.5078" id="CategoriaTarefa" style="stroke:#A80036;stroke-width:1.5;" width="123" x="262.12" y="861.5"/><ellipse cx="278.02" cy="877.5" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M278.9419,874.8906 L278.9419,881.5469 L280.0981,881.5469 Q280.7075,881.5469 280.9575,881.7813 Q281.2231,882.0156 281.2231,882.4063 Q281.2231,882.7813 280.9575,883.0156 Q280.7075,883.25 280.0981,883.25 L276.1138,883.25 Q275.4888,883.25 275.2231,883.0156 Q274.9731,882.7813 274.9731,882.3906 Q274.9731,882.0156 275.2231,881.7813 Q275.4888,881.5469 276.1138,881.5469 L277.2388,881.5469 L277.2388,874.8906 L275.395,874.8906 L275.395,876.5 Q275.395,877.1094 275.1606,877.375 Q274.9263,877.6406 274.5513,877.6406 Q274.1763,877.6406 273.9419,877.375 Q273.7075,877.1094 273.7075,876.5 L273.7075,873.1875 L282.52,873.1875 L282.52,876.5 Q282.52,877.1094 282.27,877.375 Q282.0356,877.6406 281.6606,877.6406 Q281.2856,877.6406 281.0513,877.375 Q280.8169,877.1094 280.8169,876.5 L280.8169,874.8906 L278.9419,874.8906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="89" x="292.22" y="882.4102">CategoriaTarefa</text><line style="stroke:#A80036;stroke-width:1.5;" x1="263.12" x2="384.12" y1="893.5" y2="893.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="42" x="268.12" y="908.9189">id &lt; PK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="24" x="268.12" y="922.7549">desc</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="268.12" y="936.5908">idAreaAtividade &lt; FK &gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="263.12" x2="384.12" y1="943.0078" y2="943.0078"/><!--MD5=[a322db5a7ec64d2ff8f2d6cf1831dcec]
+class CompetenciaTecnica--><rect codeLine="55" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="103.3438" id="CompetenciaTecnica" style="stroke:#A80036;stroke-width:1.5;" width="149" x="454.12" y="855"/><ellipse cx="469.12" cy="871" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M470.0419,868.3906 L470.0419,875.0469 L471.1981,875.0469 Q471.8075,875.0469 472.0575,875.2813 Q472.3231,875.5156 472.3231,875.9063 Q472.3231,876.2813 472.0575,876.5156 Q471.8075,876.75 471.1981,876.75 L467.2138,876.75 Q466.5888,876.75 466.3231,876.5156 Q466.0731,876.2813 466.0731,875.8906 Q466.0731,875.5156 466.3231,875.2813 Q466.5888,875.0469 467.2138,875.0469 L468.3388,875.0469 L468.3388,868.3906 L466.495,868.3906 L466.495,870 Q466.495,870.6094 466.2606,870.875 Q466.0263,871.1406 465.6513,871.1406 Q465.2763,871.1406 465.0419,870.875 Q464.8075,870.6094 464.8075,870 L464.8075,866.6875 L473.62,866.6875 L473.62,870 Q473.62,870.6094 473.37,870.875 Q473.1356,871.1406 472.7606,871.1406 Q472.3856,871.1406 472.1513,870.875 Q471.9169,870.6094 471.9169,870 L471.9169,868.3906 L470.0419,868.3906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="117" x="483.12" y="875.9102">CompetenciaTecnica</text><line style="stroke:#A80036;stroke-width:1.5;" x1="455.12" x2="602.12" y1="887" y2="887"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="460.12" y="902.4189">codUnico &lt; PK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="460.12" y="916.2549">descBreve</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="460.12" y="930.0908">descDetalhada</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="460.12" y="943.9268">idAreaAtividade &lt; FK &gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="455.12" x2="602.12" y1="950.3438" y2="950.3438"/><!--MD5=[19db0db7353a4bf63eefc676e5ba9b80]
+class Anuncio--><rect codeLine="63" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="172.5234" id="Anuncio" style="stroke:#A80036;stroke-width:1.5;" width="115" x="913.12" y="170"/><ellipse cx="945.67" cy="186" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M946.5919,183.3906 L946.5919,190.0469 L947.7481,190.0469 Q948.3575,190.0469 948.6075,190.2813 Q948.8731,190.5156 948.8731,190.9063 Q948.8731,191.2813 948.6075,191.5156 Q948.3575,191.75 947.7481,191.75 L943.7638,191.75 Q943.1388,191.75 942.8731,191.5156 Q942.6231,191.2813 942.6231,190.8906 Q942.6231,190.5156 942.8731,190.2813 Q943.1388,190.0469 943.7638,190.0469 L944.8888,190.0469 L944.8888,183.3906 L943.045,183.3906 L943.045,185 Q943.045,185.6094 942.8106,185.875 Q942.5763,186.1406 942.2013,186.1406 Q941.8263,186.1406 941.5919,185.875 Q941.3575,185.6094 941.3575,185 L941.3575,181.6875 L950.17,181.6875 L950.17,185 Q950.17,185.6094 949.92,185.875 Q949.6856,186.1406 949.3106,186.1406 Q948.9356,186.1406 948.7013,185.875 Q948.4669,185.6094 948.4669,185 L948.4669,183.3906 L946.5919,183.3906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="44" x="963.57" y="190.9102">Anuncio</text><line style="stroke:#A80036;stroke-width:1.5;" x1="914.12" x2="1027.12" y1="202" y2="202"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="60" x="919.12" y="217.4189">id &lt;PK | FK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="919.12" y="231.2549">dtInicioPublicacao</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="77" x="919.12" y="245.0908">dtFimPublicacao</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="919.12" y="258.9268">dtIdnicioCandidatura</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="83" x="919.12" y="272.7627">dtFimCandidatura</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="76" x="919.12" y="286.5986">dtInicioSeriacao</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="68" x="919.12" y="300.4346">dtFimSeriacao</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="919.12" y="314.2705">idTipoRegimento&lt;FK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="99" x="919.12" y="328.1064">nifOrganizacao&lt;FK&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="914.12" x2="1027.12" y1="334.5234" y2="334.5234"/><!--MD5=[02456e6632d968d6f68141e5893c6991]
+class AreaAtividade--><rect codeLine="76" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="89.5078" id="AreaAtividade" style="stroke:#A80036;stroke-width:1.5;" width="106" x="446.62" y="1024.5"/><ellipse cx="461.62" cy="1040.5" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M462.5419,1037.8906 L462.5419,1044.5469 L463.6981,1044.5469 Q464.3075,1044.5469 464.5575,1044.7813 Q464.8231,1045.0156 464.8231,1045.4063 Q464.8231,1045.7813 464.5575,1046.0156 Q464.3075,1046.25 463.6981,1046.25 L459.7138,1046.25 Q459.0888,1046.25 458.8231,1046.0156 Q458.5731,1045.7813 458.5731,1045.3906 Q458.5731,1045.0156 458.8231,1044.7813 Q459.0888,1044.5469 459.7138,1044.5469 L460.8388,1044.5469 L460.8388,1037.8906 L458.995,1037.8906 L458.995,1039.5 Q458.995,1040.1094 458.7606,1040.375 Q458.5263,1040.6406 458.1513,1040.6406 Q457.7763,1040.6406 457.5419,1040.375 Q457.3075,1040.1094 457.3075,1039.5 L457.3075,1036.1875 L466.12,1036.1875 L466.12,1039.5 Q466.12,1040.1094 465.87,1040.375 Q465.6356,1040.6406 465.2606,1040.6406 Q464.8856,1040.6406 464.6513,1040.375 Q464.4169,1040.1094 464.4169,1039.5 L464.4169,1037.8906 L462.5419,1037.8906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="74" x="475.62" y="1045.4102">AreaAtividade</text><line style="stroke:#A80036;stroke-width:1.5;" x1="447.62" x2="551.62" y1="1056.5" y2="1056.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="36" x="452.62" y="1071.9189">id &lt;PK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="53" x="452.62" y="1085.7549">descBreve</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="72" x="452.62" y="1099.5908">descDetalhada</text><line style="stroke:#A80036;stroke-width:1.5;" x1="447.62" x2="551.62" y1="1106.0078" y2="1106.0078"/><!--MD5=[0d4fe674cc1d46ec0fc990086e50801a]
+class GrauProficiencia--><rect codeLine="82" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="89.5078" id="GrauProficiencia" style="stroke:#A80036;stroke-width:1.5;" width="179" x="516.12" y="1181"/><ellipse cx="556.32" cy="1197" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M557.2419,1194.3906 L557.2419,1201.0469 L558.3981,1201.0469 Q559.0075,1201.0469 559.2575,1201.2813 Q559.5231,1201.5156 559.5231,1201.9063 Q559.5231,1202.2813 559.2575,1202.5156 Q559.0075,1202.75 558.3981,1202.75 L554.4138,1202.75 Q553.7888,1202.75 553.5231,1202.5156 Q553.2731,1202.2813 553.2731,1201.8906 Q553.2731,1201.5156 553.5231,1201.2813 Q553.7888,1201.0469 554.4138,1201.0469 L555.5388,1201.0469 L555.5388,1194.3906 L553.695,1194.3906 L553.695,1196 Q553.695,1196.6094 553.4606,1196.875 Q553.2263,1197.1406 552.8513,1197.1406 Q552.4763,1197.1406 552.2419,1196.875 Q552.0075,1196.6094 552.0075,1196 L552.0075,1192.6875 L560.82,1192.6875 L560.82,1196 Q560.82,1196.6094 560.57,1196.875 Q560.3356,1197.1406 559.9606,1197.1406 Q559.5856,1197.1406 559.3513,1196.875 Q559.1169,1196.6094 559.1169,1196 L559.1169,1194.3906 L557.2419,1194.3906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="91" x="575.92" y="1201.9102">GrauProficiencia</text><line style="stroke:#A80036;stroke-width:1.5;" x1="517.12" x2="694.12" y1="1213" y2="1213"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="52" x="522.12" y="1228.4189">valor &lt;PK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="522.12" y="1242.2549">designacao</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="522.12" y="1256.0908">codCompetenciaTecnica &lt;PK | FK&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="517.12" x2="694.12" y1="1262.5078" y2="1262.5078"/><!--MD5=[87602f047bdeda361e6d6669da197818]
+class HabilitacaoAcademica--><rect codeLine="89" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="131.0156" id="HabilitacaoAcademica" style="stroke:#A80036;stroke-width:1.5;" width="155" x="484.12" y="417"/><ellipse cx="499.12" cy="433" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M500.0419,430.3906 L500.0419,437.0469 L501.1981,437.0469 Q501.8075,437.0469 502.0575,437.2813 Q502.3231,437.5156 502.3231,437.9063 Q502.3231,438.2813 502.0575,438.5156 Q501.8075,438.75 501.1981,438.75 L497.2138,438.75 Q496.5888,438.75 496.3231,438.5156 Q496.0731,438.2813 496.0731,437.8906 Q496.0731,437.5156 496.3231,437.2813 Q496.5888,437.0469 497.2138,437.0469 L498.3388,437.0469 L498.3388,430.3906 L496.495,430.3906 L496.495,432 Q496.495,432.6094 496.2606,432.875 Q496.0263,433.1406 495.6513,433.1406 Q495.2763,433.1406 495.0419,432.875 Q494.8075,432.6094 494.8075,432 L494.8075,428.6875 L503.62,428.6875 L503.62,432 Q503.62,432.6094 503.37,432.875 Q503.1356,433.1406 502.7606,433.1406 Q502.3856,433.1406 502.1513,432.875 Q501.9169,432.6094 501.9169,432 L501.9169,430.3906 L500.0419,430.3906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="123" x="513.12" y="437.9102">HabilitacaoAcademica</text><line style="stroke:#A80036;stroke-width:1.5;" x1="485.12" x2="638.12" y1="449" y2="449"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="33" x="490.12" y="464.4189">id&lt;PK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="22" x="490.12" y="478.2549">grau</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="85" x="490.12" y="492.0908">designacaoCurso</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="490.12" y="505.9268">nomeInstituicao</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="57" x="490.12" y="519.7627">mediaCurso</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="490.12" y="533.5986">NIFFreelancer&lt;FK&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="485.12" x2="638.12" y1="540.0156" y2="540.0156"/><!--MD5=[d0e9f237fb3c72e1245c36c562ad52c4]
+class TipoRegimento--><rect codeLine="98" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="89.5078" id="TipoRegimento" style="stroke:#A80036;stroke-width:1.5;" width="117" x="968.12" y="437.5"/><ellipse cx="983.12" cy="453.5" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M984.0419,450.8906 L984.0419,457.5469 L985.1981,457.5469 Q985.8075,457.5469 986.0575,457.7813 Q986.3231,458.0156 986.3231,458.4063 Q986.3231,458.7813 986.0575,459.0156 Q985.8075,459.25 985.1981,459.25 L981.2138,459.25 Q980.5888,459.25 980.3231,459.0156 Q980.0731,458.7813 980.0731,458.3906 Q980.0731,458.0156 980.3231,457.7813 Q980.5888,457.5469 981.2138,457.5469 L982.3388,457.5469 L982.3388,450.8906 L980.495,450.8906 L980.495,452.5 Q980.495,453.1094 980.2606,453.375 Q980.0263,453.6406 979.6513,453.6406 Q979.2763,453.6406 979.0419,453.375 Q978.8075,453.1094 978.8075,452.5 L978.8075,449.1875 L987.62,449.1875 L987.62,452.5 Q987.62,453.1094 987.37,453.375 Q987.1356,453.6406 986.7606,453.6406 Q986.3856,453.6406 986.1513,453.375 Q985.9169,453.1094 985.9169,452.5 L985.9169,450.8906 L984.0419,450.8906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="85" x="997.12" y="458.4102">TipoRegimento</text><line style="stroke:#A80036;stroke-width:1.5;" x1="969.12" x2="1084.12" y1="469.5" y2="469.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="36" x="974.12" y="484.9189">id &lt;PK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="56" x="974.12" y="498.7549">designacao</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="48" x="974.12" y="512.5908">descricao</text><line style="stroke:#A80036;stroke-width:1.5;" x1="969.12" x2="1084.12" y1="519.0078" y2="519.0078"/><!--MD5=[b0f240be72c8ea8a063442502d85fc08]
+class CaraterCT--><rect codeLine="104" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="103.3438" id="CaraterCT" style="stroke:#A80036;stroke-width:1.5;" width="176" x="235.62" y="1018"/><ellipse cx="290.87" cy="1034" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M291.7919,1031.3906 L291.7919,1038.0469 L292.9481,1038.0469 Q293.5575,1038.0469 293.8075,1038.2813 Q294.0731,1038.5156 294.0731,1038.9063 Q294.0731,1039.2813 293.8075,1039.5156 Q293.5575,1039.75 292.9481,1039.75 L288.9638,1039.75 Q288.3388,1039.75 288.0731,1039.5156 Q287.8231,1039.2813 287.8231,1038.8906 Q287.8231,1038.5156 288.0731,1038.2813 Q288.3388,1038.0469 288.9638,1038.0469 L290.0888,1038.0469 L290.0888,1031.3906 L288.245,1031.3906 L288.245,1033 Q288.245,1033.6094 288.0106,1033.875 Q287.7763,1034.1406 287.4013,1034.1406 Q287.0263,1034.1406 286.7919,1033.875 Q286.5575,1033.6094 286.5575,1033 L286.5575,1029.6875 L295.37,1029.6875 L295.37,1033 Q295.37,1033.6094 295.12,1033.875 Q294.8856,1034.1406 294.5106,1034.1406 Q294.1356,1034.1406 293.9013,1033.875 Q293.6669,1033.6094 293.6669,1033 L293.6669,1031.3906 L291.7919,1031.3906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="57" x="311.37" y="1038.9102">CaraterCT</text><line style="stroke:#A80036;stroke-width:1.5;" x1="236.62" x2="410.62" y1="1050" y2="1050"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="132" x="241.62" y="1065.4189">idCategoriaTarefa&lt;PK | FK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="164" x="241.62" y="1079.2549">codCompetenciaTecnica&lt;PK | FK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="51" x="241.62" y="1093.0908">obrigatorio</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="138" x="241.62" y="1106.9268">grauMinimoProficiencia &lt;FK&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="236.62" x2="410.62" y1="1113.3438" y2="1113.3438"/><!--MD5=[df9f144f4e207f6ab4cd6fad6014a9df]
+class ReconhecimentoCT--><rect codeLine="111" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="103.3438" id="ReconhecimentoCT" style="stroke:#A80036;stroke-width:1.5;" width="248" x="564.62" y="657"/><ellipse cx="629.37" cy="673" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M630.2919,670.3906 L630.2919,677.0469 L631.4481,677.0469 Q632.0575,677.0469 632.3075,677.2813 Q632.5731,677.5156 632.5731,677.9063 Q632.5731,678.2813 632.3075,678.5156 Q632.0575,678.75 631.4481,678.75 L627.4638,678.75 Q626.8388,678.75 626.5731,678.5156 Q626.3231,678.2813 626.3231,677.8906 Q626.3231,677.5156 626.5731,677.2813 Q626.8388,677.0469 627.4638,677.0469 L628.5888,677.0469 L628.5888,670.3906 L626.745,670.3906 L626.745,672 Q626.745,672.6094 626.5106,672.875 Q626.2763,673.1406 625.9013,673.1406 Q625.5263,673.1406 625.2919,672.875 Q625.0575,672.6094 625.0575,672 L625.0575,668.6875 L633.87,668.6875 L633.87,672 Q633.87,672.6094 633.62,672.875 Q633.3856,673.1406 633.0106,673.1406 Q632.6356,673.1406 632.4013,672.875 Q632.1669,672.6094 632.1669,672 L632.1669,670.3906 L630.2919,670.3906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="110" x="649.87" y="677.9102">ReconhecimentoCT</text><line style="stroke:#A80036;stroke-width:1.5;" x1="565.62" x2="811.62" y1="689" y2="689"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="101" x="570.62" y="704.4189">dataReconhecimento</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="114" x="570.62" y="718.2549">NIFFreelancer &lt;PK, FK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="236" x="570.62" y="732.0908">valorCompetenciaTecnicaReconhecido &lt;PK | FK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="167" x="570.62" y="745.9268">codCompetenciaTecnica &lt;PK | FK&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="565.62" x2="811.62" y1="752.3438" y2="752.3438"/><!--MD5=[aca0f236260d30190baee83e33cc7802]
+class ProcessoSeriacao--><rect codeLine="118" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="89.5078" id="ProcessoSeriacao" style="stroke:#A80036;stroke-width:1.5;" width="134" x="1120.62" y="437.5"/><ellipse cx="1135.62" cy="453.5" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1136.5419,450.8906 L1136.5419,457.5469 L1137.6981,457.5469 Q1138.3075,457.5469 1138.5575,457.7813 Q1138.8231,458.0156 1138.8231,458.4063 Q1138.8231,458.7813 1138.5575,459.0156 Q1138.3075,459.25 1137.6981,459.25 L1133.7138,459.25 Q1133.0888,459.25 1132.8231,459.0156 Q1132.5731,458.7813 1132.5731,458.3906 Q1132.5731,458.0156 1132.8231,457.7813 Q1133.0888,457.5469 1133.7138,457.5469 L1134.8388,457.5469 L1134.8388,450.8906 L1132.995,450.8906 L1132.995,452.5 Q1132.995,453.1094 1132.7606,453.375 Q1132.5263,453.6406 1132.1513,453.6406 Q1131.7763,453.6406 1131.5419,453.375 Q1131.3075,453.1094 1131.3075,452.5 L1131.3075,449.1875 L1140.12,449.1875 L1140.12,452.5 Q1140.12,453.1094 1139.87,453.375 Q1139.6356,453.6406 1139.2606,453.6406 Q1138.8856,453.6406 1138.6513,453.375 Q1138.4169,453.1094 1138.4169,452.5 L1138.4169,450.8906 L1136.5419,450.8906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="102" x="1149.62" y="458.4102">ProcessoSeriacao</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1121.62" x2="1253.62" y1="469.5" y2="469.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="74" x="1126.62" y="484.9189">dataRealizacao</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="111" x="1126.62" y="498.7549">emailColaborador &lt;FK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="97" x="1126.62" y="512.5908">idAnuncio &lt;PK | FK&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1121.62" x2="1253.62" y1="519.0078" y2="519.0078"/><!--MD5=[716bba0e94eea125d5a66a891f2c3c34]
+class Classificacao--><rect codeLine="124" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="103.3438" id="Classificacao" style="stroke:#A80036;stroke-width:1.5;" width="161" x="723.12" y="7"/><ellipse cx="762.42" cy="23" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M763.3419,20.3906 L763.3419,27.0469 L764.4981,27.0469 Q765.1075,27.0469 765.3575,27.2813 Q765.6231,27.5156 765.6231,27.9063 Q765.6231,28.2813 765.3575,28.5156 Q765.1075,28.75 764.4981,28.75 L760.5138,28.75 Q759.8888,28.75 759.6231,28.5156 Q759.3731,28.2813 759.3731,27.8906 Q759.3731,27.5156 759.6231,27.2813 Q759.8888,27.0469 760.5138,27.0469 L761.6388,27.0469 L761.6388,20.3906 L759.795,20.3906 L759.795,22 Q759.795,22.6094 759.5606,22.875 Q759.3263,23.1406 758.9513,23.1406 Q758.5763,23.1406 758.3419,22.875 Q758.1075,22.6094 758.1075,22 L758.1075,18.6875 L766.92,18.6875 L766.92,22 Q766.92,22.6094 766.67,22.875 Q766.4356,23.1406 766.0606,23.1406 Q765.6856,23.1406 765.4513,22.875 Q765.2169,22.6094 765.2169,22 L765.2169,20.3906 L763.3419,20.3906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="75" x="781.82" y="27.9102">Classificacao</text><line style="stroke:#A80036;stroke-width:1.5;" x1="724.12" x2="883.12" y1="39" y2="39"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="149" x="729.12" y="54.4189">idProcessoSeriacao&lt; PK | FK &gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="44" x="729.12" y="68.2549">dataHora</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="89" x="729.12" y="82.0908">lugarClassificacao</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="121" x="729.12" y="95.9268">idCandidatura &lt; PK | FK &gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="724.12" x2="883.12" y1="102.3438" y2="102.3438"/><!--MD5=[e4c4f36a1b0ac89a761a15023be9c3a0]
+class ListaColaboradorProcessoSeriacao--><rect codeLine="131" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="75.6719" id="ListaColaboradorProcessoSeriacao" style="stroke:#A80036;stroke-width:1.5;" width="230" x="1037.62" y="20.5"/><ellipse cx="1052.62" cy="36.5" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1053.5419,33.8906 L1053.5419,40.5469 L1054.6981,40.5469 Q1055.3075,40.5469 1055.5575,40.7813 Q1055.8231,41.0156 1055.8231,41.4063 Q1055.8231,41.7813 1055.5575,42.0156 Q1055.3075,42.25 1054.6981,42.25 L1050.7138,42.25 Q1050.0888,42.25 1049.8231,42.0156 Q1049.5731,41.7813 1049.5731,41.3906 Q1049.5731,41.0156 1049.8231,40.7813 Q1050.0888,40.5469 1050.7138,40.5469 L1051.8388,40.5469 L1051.8388,33.8906 L1049.995,33.8906 L1049.995,35.5 Q1049.995,36.1094 1049.7606,36.375 Q1049.5263,36.6406 1049.1513,36.6406 Q1048.7763,36.6406 1048.5419,36.375 Q1048.3075,36.1094 1048.3075,35.5 L1048.3075,32.1875 L1057.12,32.1875 L1057.12,35.5 Q1057.12,36.1094 1056.87,36.375 Q1056.6356,36.6406 1056.2606,36.6406 Q1055.8856,36.6406 1055.6513,36.375 Q1055.4169,36.1094 1055.4169,35.5 L1055.4169,33.8906 L1053.5419,33.8906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="198" x="1066.62" y="41.4102">ListaColaboradorProcessoSeriacao</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1038.62" x2="1266.62" y1="52.5" y2="52.5"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="122" x="1043.62" y="67.9189">idProcessoSeriacao&lt;FK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="108" x="1043.62" y="81.7549">emailColaborador&lt;FK&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="1038.62" x2="1266.62" y1="88.1719" y2="88.1719"/><!--MD5=[475c5b924ed41035684e2831311827d2]
+class Candidatura--><rect codeLine="136" fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="158.6875" id="Candidatura" style="stroke:#A80036;stroke-width:1.5;" width="115" x="746.12" y="403"/><ellipse cx="767.87" cy="419" fill="#FFAAAA" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M768.7919,416.3906 L768.7919,423.0469 L769.9481,423.0469 Q770.5575,423.0469 770.8075,423.2813 Q771.0731,423.5156 771.0731,423.9063 Q771.0731,424.2813 770.8075,424.5156 Q770.5575,424.75 769.9481,424.75 L765.9638,424.75 Q765.3388,424.75 765.0731,424.5156 Q764.8231,424.2813 764.8231,423.8906 Q764.8231,423.5156 765.0731,423.2813 Q765.3388,423.0469 765.9638,423.0469 L767.0888,423.0469 L767.0888,416.3906 L765.245,416.3906 L765.245,418 Q765.245,418.6094 765.0106,418.875 Q764.7763,419.1406 764.4013,419.1406 Q764.0263,419.1406 763.7919,418.875 Q763.5575,418.6094 763.5575,418 L763.5575,414.6875 L772.37,414.6875 L772.37,418 Q772.37,418.6094 772.12,418.875 Q771.8856,419.1406 771.5106,419.1406 Q771.1356,419.1406 770.9013,418.875 Q770.6669,418.6094 770.6669,418 L770.6669,416.3906 L768.7919,416.3906 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="68" x="783.37" y="423.9102">Candidatura</text><line style="stroke:#A80036;stroke-width:1.5;" x1="747.12" x2="860.12" y1="435" y2="435"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="36" x="752.12" y="450.4189">id &lt;PK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="79" x="752.12" y="464.2549">dataCandidatura</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="75" x="752.12" y="478.0908">valorPretendido</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="31" x="752.12" y="491.9268">nrDias</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="103" x="752.12" y="505.7627">txtApresentacao &lt;N&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="80" x="752.12" y="519.5986">txtMotivacao&lt;N&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="92" x="752.12" y="533.4346">NIFFreelancer&lt;FK&gt;</text><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacing" textLength="73" x="752.12" y="547.2705">idAnuncio&lt;FK&gt;</text><line style="stroke:#A80036;stroke-width:1.5;" x1="747.12" x2="860.12" y1="553.6875" y2="553.6875"/><!--MD5=[3fd616f346a44cd59a91eb10b19e157c]
+class User--><rect fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="48" id="User" style="stroke:#A80036;stroke-width:1.5;" width="59" x="341.12" y="34.5"/><ellipse cx="356.12" cy="50.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M358.8856,46.375 Q359.0419,46.1563 359.2294,46.0469 Q359.4169,45.9375 359.6356,45.9375 Q360.0106,45.9375 360.245,46.2031 Q360.4794,46.4531 360.4794,47.0625 L360.4794,48.5156 Q360.4794,49.125 360.245,49.3906 Q360.0106,49.6563 359.6356,49.6563 Q359.2919,49.6563 359.0888,49.4531 Q358.8856,49.2656 358.7763,48.75 Q358.7294,48.3906 358.5419,48.2031 Q358.2138,47.8281 357.6044,47.6094 Q356.995,47.3906 356.37,47.3906 Q355.6044,47.3906 354.9638,47.7188 Q354.3388,48.0469 353.8388,48.7969 Q353.3544,49.5469 353.3544,50.5781 L353.3544,51.6719 Q353.3544,52.9063 354.245,53.7344 Q355.1356,54.5469 356.7294,54.5469 Q357.6669,54.5469 358.3231,54.2969 Q358.7138,54.1406 359.1356,53.7031 Q359.4013,53.4375 359.5419,53.3594 Q359.6981,53.2813 359.9013,53.2813 Q360.2294,53.2813 360.4794,53.5469 Q360.745,53.7969 360.745,54.1406 Q360.745,54.4844 360.4013,54.8906 Q359.9013,55.4688 359.1044,55.7969 Q358.0263,56.25 356.7294,56.25 Q355.2138,56.25 354.0106,55.625 Q353.0263,55.125 352.3388,54.0625 Q351.6513,52.9844 351.6513,51.7031 L351.6513,50.5469 Q351.6513,49.2188 352.2606,48.0781 Q352.8856,46.9219 353.9794,46.3125 Q355.0731,45.6875 356.3075,45.6875 Q357.0419,45.6875 357.6825,45.8594 Q358.3388,46.0156 358.8856,46.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="27" x="370.12" y="55.4102">User</text><line style="stroke:#A80036;stroke-width:1.5;" x1="342.12" x2="399.12" y1="66.5" y2="66.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="342.12" x2="399.12" y1="74.5" y2="74.5"/><!--MD5=[50b0a5da64f2e1632ad66e612d8bda56]
+class ListaColaboradorClassificacao--><rect fill="#FEFECE" filter="url(#f1krlwvd2vlgwf)" height="48" id="ListaColaboradorClassificacao" style="stroke:#A80036;stroke-width:1.5;" width="203" x="68.12" y="232.5"/><ellipse cx="83.12" cy="248.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M85.8856,244.375 Q86.0419,244.1563 86.2294,244.0469 Q86.4169,243.9375 86.6356,243.9375 Q87.0106,243.9375 87.245,244.2031 Q87.4794,244.4531 87.4794,245.0625 L87.4794,246.5156 Q87.4794,247.125 87.245,247.3906 Q87.0106,247.6563 86.6356,247.6563 Q86.2919,247.6563 86.0888,247.4531 Q85.8856,247.2656 85.7763,246.75 Q85.7294,246.3906 85.5419,246.2031 Q85.2138,245.8281 84.6044,245.6094 Q83.995,245.3906 83.37,245.3906 Q82.6044,245.3906 81.9638,245.7188 Q81.3388,246.0469 80.8388,246.7969 Q80.3544,247.5469 80.3544,248.5781 L80.3544,249.6719 Q80.3544,250.9063 81.245,251.7344 Q82.1356,252.5469 83.7294,252.5469 Q84.6669,252.5469 85.3231,252.2969 Q85.7138,252.1406 86.1356,251.7031 Q86.4013,251.4375 86.5419,251.3594 Q86.6981,251.2813 86.9013,251.2813 Q87.2294,251.2813 87.4794,251.5469 Q87.745,251.7969 87.745,252.1406 Q87.745,252.4844 87.4013,252.8906 Q86.9013,253.4688 86.1044,253.7969 Q85.0263,254.25 83.7294,254.25 Q82.2138,254.25 81.0106,253.625 Q80.0263,253.125 79.3388,252.0625 Q78.6513,250.9844 78.6513,249.7031 L78.6513,248.5469 Q78.6513,247.2188 79.2606,246.0781 Q79.8856,244.9219 80.9794,244.3125 Q82.0731,243.6875 83.3075,243.6875 Q84.0419,243.6875 84.6825,243.8594 Q85.3388,244.0156 85.8856,244.375 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacing" textLength="171" x="97.12" y="253.4102">ListaColaboradorClassificacao</text><line style="stroke:#A80036;stroke-width:1.5;" x1="69.12" x2="270.12" y1="264.5" y2="264.5"/><line style="stroke:#A80036;stroke-width:1.5;" x1="69.12" x2="270.12" y1="272.5" y2="272.5"/><!--MD5=[1034382c077c385ed88fd4c2bae6b72a]
+link User to Colaborador--><path codeLine="147" d="M332.58,59.55 C262.92,61.94 116.01,78.24 50.62,170 C6,232.62 26.8,269.9 50.62,343 C62.23,378.61 86.83,412.67 108.84,438.11 " fill="none" id="User-Colaborador" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="109.0818" x2="118.8722" y1="438.3871" y2="440.4238"/><line style="stroke:#A80036;stroke-width:1.0;" x1="109.0818" x2="109.8678" y1="438.3871" y2="448.3562"/><line style="stroke:#A80036;stroke-width:1.0;" x1="109.0818" x2="114.37" y1="438.3871" y2="444.39"/><ellipse cx="105.1156" cy="433.885" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="336.5774" x2="336.8059" y1="55.4359" y2="63.4326"/><line style="stroke:#A80036;stroke-width:1.0;" x1="333.5786" x2="333.8071" y1="55.5216" y2="63.5183"/><line style="stroke:#A80036;stroke-width:1.0;" x1="332.6933" x2="340.69" y1="59.5485" y2="59.32"/><!--MD5=[76df029f2e13b63b07c02f3479a419d7]
+link User to Freelancer--><path codeLine="148" d="M398.95,88.57 C428.98,119.39 476.97,168.63 513.06,205.66 " fill="none" id="User-Freelancer" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="513.1622" x2="523.0411" y1="205.7652" y2="207.3166"/><line style="stroke:#A80036;stroke-width:1.0;" x1="513.1622" x2="514.4389" y1="205.7652" y2="215.6834"/><line style="stroke:#A80036;stroke-width:1.0;" x1="513.1622" x2="518.74" y1="205.7652" y2="211.5"/><ellipse cx="508.9788" cy="201.4642" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="393.2086" x2="398.9364" y1="88.4064" y2="82.8214"/><line style="stroke:#A80036;stroke-width:1.0;" x1="395.3029" x2="401.0308" y1="90.5543" y2="84.9694"/><line style="stroke:#A80036;stroke-width:1.0;" x1="398.865" x2="393.28" y1="88.4778" y2="82.75"/><!--MD5=[cdf3d11d860e0338123bb961ed911da3]
+link User to Organizacao--><path codeLine="149" d="M370.62,90.82 C370.62,117.33 370.62,156.22 370.62,189.55 " fill="none" id="User-Organizacao" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="370.62" x2="376.62" y1="189.9" y2="197.9"/><line style="stroke:#A80036;stroke-width:1.0;" x1="370.62" x2="364.62" y1="189.9" y2="197.9"/><line style="stroke:#A80036;stroke-width:1.0;" x1="370.62" x2="370.62" y1="189.9" y2="197.9"/><ellipse cx="370.62" cy="183.9" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="366.62" x2="374.62" y1="86.75" y2="86.75"/><line style="stroke:#A80036;stroke-width:1.0;" x1="366.62" x2="374.62" y1="89.75" y2="89.75"/><line style="stroke:#A80036;stroke-width:1.0;" x1="370.62" x2="370.62" y1="90.75" y2="82.75"/><!--MD5=[cf2deab2ed1f09cef5b70f58ef028e55]
+link Organizacao to Tarefa--><path codeLine="151" d="M337.62,322.49 C326.82,347.07 316.17,375.7 310.62,403 C296.47,472.66 296.35,553.15 299.44,613.88 " fill="none" id="Organizacao-Tarefa" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="299.442" x2="305.8614" y1="613.9415" y2="621.609"/><line style="stroke:#A80036;stroke-width:1.0;" x1="299.442" x2="293.8786" y1="613.9415" y2="622.251"/><line style="stroke:#A80036;stroke-width:1.0;" x1="299.442" x2="299.87" y1="613.9415" y2="621.93"/><ellipse cx="299.1211" cy="607.95" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="335.684" x2="342.9844" y1="317.0144" y2="320.286"/><line style="stroke:#A80036;stroke-width:1.0;" x1="334.4571" x2="341.7575" y1="319.7521" y2="323.0237"/><line style="stroke:#A80036;stroke-width:1.0;" x1="337.6984" x2="340.97" y1="322.3004" y2="315"/><!--MD5=[471b8c6ff5fcf31b4b6fb9b4f947344d]
+link Classificacao to Candidatura--><path codeLine="152" d="M803.62,118.74 C803.62,190.57 803.62,312.22 803.62,394.65 " fill="none" id="Classificacao-Candidatura" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="803.62" x2="809.62" y1="394.75" y2="402.75"/><line style="stroke:#A80036;stroke-width:1.0;" x1="803.62" x2="797.62" y1="394.75" y2="402.75"/><line style="stroke:#A80036;stroke-width:1.0;" x1="803.62" x2="803.62" y1="394.75" y2="402.75"/><ellipse cx="803.62" cy="388.75" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="803.62" x2="803.62" y1="121.4" y2="110.4"/><ellipse cx="803.62" cy="121.4" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="799.62" x2="807.62" y1="114.4" y2="114.4"/><!--MD5=[27ac5e624714d14fa0255fd5e9f13614]
+link Classificacao to ListaColaboradorClassificacao--><path codeLine="153" d="M714.74,67.4 C609.29,79.25 429.99,107.35 288.62,170 C256.31,184.32 224.02,208.28 201.24,227.2 " fill="none" id="Classificacao-ListaColaboradorClassificacao" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="201.2023" x2="198.9422" y1="227.2404" y2="236.9817"/><line style="stroke:#A80036;stroke-width:1.0;" x1="201.2023" x2="191.2178" y1="227.2404" y2="227.7983"/><line style="stroke:#A80036;stroke-width:1.0;" x1="201.2023" x2="195.08" y1="227.2404" y2="232.39"/><line style="stroke:#A80036;stroke-width:1.0;" x1="205.3076" x2="200.158" y1="229.0142" y2="222.8919"/><line style="stroke:#A80036;stroke-width:1.0;" x1="718.4113" x2="719.2979" y1="62.9679" y2="70.9187"/><line style="stroke:#A80036;stroke-width:1.0;" x1="715.4298" x2="716.3164" y1="63.3004" y2="71.2511"/><line style="stroke:#A80036;stroke-width:1.0;" x1="714.8793" x2="722.83" y1="67.3866" y2="66.5"/><!--MD5=[a5133d4baff010fde5baa5a7ed40a58e]
+link ListaColaboradorClassificacao to Colaborador--><path codeLine="154" d="M167.12,288.6 C164.04,326.93 158.79,392.35 155.26,436.24 " fill="none" id="ListaColaboradorClassificacao-Colaborador" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="158.9086" x2="150.9345" y1="440.7845" y2="440.1414"/><line style="stroke:#A80036;stroke-width:1.0;" x1="159.1497" x2="151.1756" y1="437.7942" y2="437.1511"/><line style="stroke:#A80036;stroke-width:1.0;" x1="155.2431" x2="154.6" y1="436.4759" y2="444.45"/><line style="stroke:#A80036;stroke-width:1.0;" x1="167.1169" x2="161.7794" y1="288.6041" y2="280.1477"/><line style="stroke:#A80036;stroke-width:1.0;" x1="167.1169" x2="173.7406" y1="288.6041" y2="281.1123"/><line style="stroke:#A80036;stroke-width:1.0;" x1="167.1169" x2="167.76" y1="288.6041" y2="280.63"/><ellipse cx="166.6346" cy="294.5847" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[089f0203eb8f3f9e20d3829c91943375]
+link Classificacao to ProcessoSeriacao--><path codeLine="155" d="M890.91,104.93 C894.51,106.66 898.1,108.36 901.62,110 C964.49,139.24 995.8,121.79 1045.62,170 C1120.78,242.72 1159.7,362.64 1176.7,430.51 " fill="none" id="Classificacao-ProcessoSeriacao" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1181.2996" x2="1173.5308" y1="432.4808" y2="434.3904"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1180.5835" x2="1172.8148" y1="429.5676" y2="431.4771"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1176.4605" x2="1178.37" y1="429.5512" y2="437.32"/><line style="stroke:#A80036;stroke-width:1.0;" x1="886.2424" x2="889.735" y1="107.115" y2="99.9176"/><line style="stroke:#A80036;stroke-width:1.0;" x1="888.9414" x2="892.434" y1="108.4247" y2="101.2273"/><line style="stroke:#A80036;stroke-width:1.0;" x1="891.5873" x2="884.39" y1="105.2626" y2="101.77"/><!--MD5=[02d330b3691aaed85c2b7230cc23c1df]
+link Anuncio to ProcessoSeriacao--><path codeLine="156" d="M1033.86,322.78 C1067.48,357.49 1108.17,399.48 1139.24,431.56 " fill="none" id="Anuncio-ProcessoSeriacao" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1137.2606" x2="1144.92" y1="429.5249" y2="437.42"/><ellipse cx="1137.2606" cy="429.5249" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1145.0057" x2="1139.2638" y1="431.7638" y2="437.3343"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1028.107" x2="1033.8561" y1="322.5961" y2="317.033"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1030.1932" x2="1035.9423" y1="324.752" y2="319.1889"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1033.7631" x2="1028.2" y1="322.689" y2="316.94"/><!--MD5=[adb361c9f58e7cbfc456d56136f96fa3]
+link Colaborador to Tarefa--><path codeLine="157" d="M182.18,527.38 C199.57,552.35 222.03,584.6 243.13,614.9 " fill="none" id="Colaborador-Tarefa" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="243.3215" x2="252.8154" y1="615.1628" y2="618.3036"/><line style="stroke:#A80036;stroke-width:1.0;" x1="243.3215" x2="242.9646" y1="615.1628" y2="625.1564"/><line style="stroke:#A80036;stroke-width:1.0;" x1="243.3215" x2="247.89" y1="615.1628" y2="621.73"/><ellipse cx="239.8951" cy="610.2373" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="176.5606" x2="183.1279" y1="526.3079" y2="521.7394"/><line style="stroke:#A80036;stroke-width:1.0;" x1="178.2738" x2="184.8411" y1="528.7706" y2="524.2021"/><line style="stroke:#A80036;stroke-width:1.0;" x1="182.1285" x2="177.56" y1="527.3072" y2="520.74"/><!--MD5=[3e4842a9a39f581fdf016dfd12392cbc]
+link Freelancer to Candidatura--><path codeLine="158" d="M615.54,307.41 C652.35,341.48 701.26,386.75 739.98,422.59 " fill="none" id="Freelancer-Candidatura" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="740.2431" x2="750.189" y1="422.8213" y2="423.8598"/><line style="stroke:#A80036;stroke-width:1.0;" x1="740.2431" x2="742.031" y1="422.8213" y2="432.6602"/><line style="stroke:#A80036;stroke-width:1.0;" x1="740.2431" x2="746.11" y1="422.8213" y2="428.26"/><ellipse cx="735.8429" cy="418.7423" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="609.6441" x2="615.0828" y1="307.4128" y2="301.5459"/><line style="stroke:#A80036;stroke-width:1.0;" x1="611.8442" x2="617.2829" y1="309.4523" y2="303.5854"/><line style="stroke:#A80036;stroke-width:1.0;" x1="615.2969" x2="609.43" y1="307.1987" y2="301.76"/><!--MD5=[b8422db8e85907663c841d4c41f19cc1]
+link Freelancer to EnderecoPostal--><path codeLine="159" d="M522.28,308.43 C495.69,342.88 460.52,388.41 432.93,424.13 " fill="none" id="Freelancer-EnderecoPostal" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="433.4798" x2="427.142" y1="429.952" y2="425.0702"/><line style="stroke:#A80036;stroke-width:1.0;" x1="435.3105" x2="428.9727" y1="427.5753" y2="422.6935"/><line style="stroke:#A80036;stroke-width:1.0;" x1="432.7518" x2="427.87" y1="424.3422" y2="430.68"/><line style="stroke:#A80036;stroke-width:1.0;" x1="520.718" x2="527.44" y1="310.4672" y2="301.76"/><ellipse cx="520.718" cy="310.4672" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="521.8294" x2="528.1619" y1="302.4819" y2="307.3706"/><!--MD5=[d8cdfe47acc319ba7387450f2c7628f2]
+link Freelancer to ReconhecimentoCT--><path codeLine="160" d="M603.38,308.28 C622.92,334.88 644.51,368.93 656.62,403 C685.68,484.73 690.69,585.98 690.51,648.66 " fill="none" id="Freelancer-ReconhecimentoCT" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="690.5171" x2="696.4598" y1="648.8702" y2="656.9129"/><line style="stroke:#A80036;stroke-width:1.0;" x1="690.5171" x2="684.4602" y1="648.8702" y2="656.8271"/><line style="stroke:#A80036;stroke-width:1.0;" x1="690.5171" x2="690.46" y1="648.8702" y2="656.87"/><line style="stroke:#A80036;stroke-width:1.0;" x1="694.5313" x2="686.5315" y1="646.8988" y2="646.8417"/><line style="stroke:#A80036;stroke-width:1.0;" x1="597.646" x2="604.058" y1="307.288" y2="302.504"/><line style="stroke:#A80036;stroke-width:1.0;" x1="599.44" x2="605.852" y1="309.6925" y2="304.9085"/><line style="stroke:#A80036;stroke-width:1.0;" x1="603.244" x2="598.46" y1="308.102" y2="301.69"/><!--MD5=[4c83f560ef7c82f9519d7b4f6acd253e]
+link ReconhecimentoCT to GrauProficiencia--><path codeLine="161" d="M679.16,768.26 C662.84,869.66 629.63,1075.88 614.05,1172.65 " fill="none" id="ReconhecimentoCT-GrauProficiencia" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="617.3148" x2="609.4164" y1="1177.5164" y2="1176.2452"/><line style="stroke:#A80036;stroke-width:1.0;" x1="617.7915" x2="609.8931" y1="1174.5545" y2="1173.2833"/><line style="stroke:#A80036;stroke-width:1.0;" x1="614.0012" x2="612.73" y1="1172.9316" y2="1180.83"/><line style="stroke:#A80036;stroke-width:1.0;" x1="679.1688" x2="674.5162" y1="768.2384" y2="759.3866"/><line style="stroke:#A80036;stroke-width:1.0;" x1="679.1688" x2="686.3638" y1="768.2384" y2="761.2934"/><line style="stroke:#A80036;stroke-width:1.0;" x1="679.1688" x2="680.44" y1="768.2384" y2="760.34"/><ellipse cx="678.2155" cy="774.1621" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[ca49ec1e86bb5e8c049c02c54bfc3088]
+link Organizacao to EnderecoPostal--><path codeLine="162" d="M375.91,323.3 C378.44,354.84 381.46,392.31 383.91,422.86 " fill="none" id="Organizacao-EnderecoPostal" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="388.2155" x2="380.2414" y1="426.5614" y2="427.2045"/><line style="stroke:#A80036;stroke-width:1.0;" x1="387.9744" x2="380.0003" y1="423.5711" y2="424.2142"/><line style="stroke:#A80036;stroke-width:1.0;" x1="383.9069" x2="384.55" y1="422.8959" y2="430.87"/><line style="stroke:#A80036;stroke-width:1.0;" x1="376.1247" x2="375.26" y1="326.156" y2="315.19"/><ellipse cx="376.1247" cy="326.156" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="371.5868" x2="379.5621" y1="319.4921" y2="318.8632"/><!--MD5=[567db691f9836c63f305bad1024cbc66]
+link Organizacao to Colaborador--><path codeLine="163" d="M300.91,313.01 C291,323.02 281.03,333.34 271.62,343 C240.1,375.37 204.17,411.67 179.43,438.99 " fill="none" id="Organizacao-Colaborador" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="180.2788" x2="174.3275" y1="444.0275" y2="438.6812"/><line style="stroke:#A80036;stroke-width:1.0;" x1="182.2836" x2="176.3324" y1="441.7958" y2="436.4495"/><line style="stroke:#A80036;stroke-width:1.0;" x1="179.9763" x2="174.63" y1="438.3788" y2="444.33"/><line style="stroke:#A80036;stroke-width:1.0;" x1="300.4232" x2="306.0882" y1="307.8182" y2="313.4668"/><line style="stroke:#A80036;stroke-width:1.0;" x1="298.3049" x2="303.9699" y1="309.9425" y2="315.5912"/><line style="stroke:#A80036;stroke-width:1.0;" x1="300.4313" x2="306.08" y1="313.475" y2="307.81"/><!--MD5=[567db691f9836c63f305bad1024cbc66]
+link Organizacao to Colaborador--><path codeLine="164" d="M327.56,321.26 C320.6,328.61 313.46,335.98 306.62,343 C275.23,375.23 239.46,411.37 209.83,438.64 " fill="none" id="Organizacao-Colaborador-1" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="209.5014" x2="207.6509" y1="438.9287" y2="448.756"/><line style="stroke:#A80036;stroke-width:1.0;" x1="209.5014" x2="199.5491" y1="438.9287" y2="439.904"/><line style="stroke:#A80036;stroke-width:1.0;" x1="209.5014" x2="203.6" y1="438.9287" y2="444.33"/><line style="stroke:#A80036;stroke-width:1.0;" x1="213.6774" x2="208.2761" y1="440.5291" y2="434.6277"/><line style="stroke:#A80036;stroke-width:1.0;" x1="327.7057" x2="333.5313" y1="315.2813" y2="320.7643"/><line style="stroke:#A80036;stroke-width:1.0;" x1="325.6496" x2="331.4752" y1="317.4659" y2="322.9489"/><line style="stroke:#A80036;stroke-width:1.0;" x1="327.8771" x2="333.36" y1="320.9356" y2="315.11"/><!--MD5=[7a59ad2cb29ff6e914b8672ce881fef8]
+link Freelancer to HabilitacaoAcademica--><path codeLine="165" d="M561.62,310.09 C561.62,339.54 561.62,376.71 561.62,408.9 " fill="none" id="Freelancer-HabilitacaoAcademica" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="561.62" x2="567.62" y1="408.97" y2="416.97"/><line style="stroke:#A80036;stroke-width:1.0;" x1="561.62" x2="555.62" y1="408.97" y2="416.97"/><line style="stroke:#A80036;stroke-width:1.0;" x1="561.62" x2="561.62" y1="408.97" y2="416.97"/><line style="stroke:#A80036;stroke-width:1.0;" x1="565.62" x2="557.62" y1="406.97" y2="406.97"/><line style="stroke:#A80036;stroke-width:1.0;" x1="557.62" x2="565.62" y1="305.76" y2="305.76"/><line style="stroke:#A80036;stroke-width:1.0;" x1="557.62" x2="565.62" y1="308.76" y2="308.76"/><line style="stroke:#A80036;stroke-width:1.0;" x1="561.62" x2="561.62" y1="309.76" y2="301.76"/><!--MD5=[e538c9efa8de58386edc6206f3c58807]
+link CompetenciaTecnica to AreaAtividade--><path codeLine="166" d="M517.99,966.52 C515.06,982.82 511.89,1000.38 509.03,1016.26 " fill="none" id="CompetenciaTecnica-AreaAtividade" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="512.2143" x2="504.3404" y1="1021.1704" y2="1019.7557"/><line style="stroke:#A80036;stroke-width:1.0;" x1="512.7448" x2="504.8709" y1="1018.2177" y2="1016.803"/><line style="stroke:#A80036;stroke-width:1.0;" x1="508.9847" x2="507.57" y1="1016.5261" y2="1024.4"/><line style="stroke:#A80036;stroke-width:1.0;" x1="517.5047" x2="519.45" y1="969.2666" y2="958.44"/><ellipse cx="517.5047" cy="969.2666" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="514.8057" x2="522.6796" y1="961.6696" y2="963.0843"/><!--MD5=[0d731ff285a62a08178b23be6cceb109]
+link CompetenciaTecnica to GrauProficiencia--><path codeLine="167" d="M552.44,965.58 C558.68,982.3 564.95,1000.7 569.62,1018 C583.62,1069.83 593.42,1130.49 599.23,1172.69 " fill="none" id="CompetenciaTecnica-GrauProficiencia" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="599.2446" x2="606.2745" y1="1172.954" y2="1180.066"/><line style="stroke:#A80036;stroke-width:1.0;" x1="599.2446" x2="594.3855" y1="1172.954" y2="1181.694"/><line style="stroke:#A80036;stroke-width:1.0;" x1="599.2446" x2="600.33" y1="1172.954" y2="1180.88"/><line style="stroke:#A80036;stroke-width:1.0;" x1="602.9363" x2="595.0103" y1="1170.4298" y2="1171.5151"/><line style="stroke:#A80036;stroke-width:1.0;" x1="547.2621" x2="554.7457" y1="963.1857" y2="960.3579"/><line style="stroke:#A80036;stroke-width:1.0;" x1="548.3225" x2="555.8061" y1="965.992" y2="963.1642"/><line style="stroke:#A80036;stroke-width:1.0;" x1="552.4178" x2="549.59" y1="965.5136" y2="958.03"/><!--MD5=[c6ddbf6462027179313df74ac2995130]
+link CategoriaTarefa to AreaAtividade--><path codeLine="168" d="M378.34,957.55 C399.66,977.05 424.03,999.35 445.31,1018.81 " fill="none" id="CategoriaTarefa-AreaAtividade" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="450.9699" x2="445.5687" y1="1018.5687" y2="1024.4701"/><line style="stroke:#A80036;stroke-width:1.0;" x1="448.7569" x2="443.3557" y1="1016.5432" y2="1022.4446"/><line style="stroke:#A80036;stroke-width:1.0;" x1="445.3186" x2="451.22" y1="1018.8187" y2="1024.22"/><line style="stroke:#A80036;stroke-width:1.0;" x1="378.0879" x2="368.1344" y1="957.3142" y2="956.3509"/><line style="stroke:#A80036;stroke-width:1.0;" x1="378.0879" x2="376.2256" y1="957.3142" y2="947.4891"/><line style="stroke:#A80036;stroke-width:1.0;" x1="378.0879" x2="372.18" y1="957.3142" y2="951.92"/><ellipse cx="382.5188" cy="961.3598" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[05917f6a7518902eadec5ea1fb555066]
+link Tarefa to CategoriaTarefa--><path codeLine="169" d="M315.28,803.25 C316.68,820.39 318.09,837.71 319.34,853.09 " fill="none" id="Tarefa-CategoriaTarefa" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="323.6855" x2="315.7114" y1="857.1214" y2="857.7645"/><line style="stroke:#A80036;stroke-width:1.0;" x1="323.4444" x2="315.4703" y1="854.1311" y2="854.7742"/><line style="stroke:#A80036;stroke-width:1.0;" x1="319.3769" x2="320.02" y1="853.4559" y2="861.43"/><line style="stroke:#A80036;stroke-width:1.0;" x1="315.2631" x2="308.6394" y1="803.1541" y2="795.6623"/><line style="stroke:#A80036;stroke-width:1.0;" x1="315.2631" x2="320.6006" y1="803.1541" y2="794.6977"/><line style="stroke:#A80036;stroke-width:1.0;" x1="315.2631" x2="314.62" y1="803.1541" y2="795.18"/><ellipse cx="315.7454" cy="809.1347" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[27b52c98fcb5387c047ce09b42fcb62d]
+link Anuncio to Candidatura--><path codeLine="170" d="M907.99,341.51 C894.36,359.79 879.94,379.13 866.31,397.41 " fill="none" id="Anuncio-Candidatura" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="866.114" x2="866.139" y1="397.688" y2="407.688"/><line style="stroke:#A80036;stroke-width:1.0;" x1="866.114" x2="856.521" y1="397.688" y2="400.512"/><line style="stroke:#A80036;stroke-width:1.0;" x1="866.114" x2="861.33" y1="397.688" y2="404.1"/><ellipse cx="869.702" cy="392.879" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="907.322" x2="913.734" y1="335.714" y2="340.498"/><line style="stroke:#A80036;stroke-width:1.0;" x1="905.528" x2="911.94" y1="338.1185" y2="342.9025"/><line style="stroke:#A80036;stroke-width:1.0;" x1="908.136" x2="912.92" y1="341.312" y2="334.9"/><!--MD5=[3fb03004f687adcfc695220fdd65ad26]
+link Anuncio to TipoRegimento--><path codeLine="171" d="M994.02,351.1 C1000.7,377.82 1007.74,405.98 1013.56,429.26 " fill="none" id="Anuncio-TipoRegimento" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1018.4783" x2="1010.718" y1="432.428" y2="434.3717"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1017.7495" x2="1009.9892" y1="429.5179" y2="431.4616"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1013.6264" x2="1015.57" y1="429.5197" y2="437.28"/><line style="stroke:#A80036;stroke-width:1.0;" x1="993.9602" x2="986.2073" y1="350.9037" y2="344.5876"/><line style="stroke:#A80036;stroke-width:1.0;" x1="993.9602" x2="997.8527" y1="350.9037" y2="341.6924"/><line style="stroke:#A80036;stroke-width:1.0;" x1="993.9602" x2="992.03" y1="350.9037" y2="343.14"/><ellipse cx="995.4078" cy="356.7264" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[8be29b51239d6373ad7882c862416dc3]
+link CategoriaTarefa to CaraterCT--><path codeLine="172" d="M323.62,960.02 C323.62,975.87 323.62,993.38 323.62,1009.62 " fill="none" id="CategoriaTarefa-CaraterCT" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="323.62" x2="329.62" y1="1009.98" y2="1017.98"/><line style="stroke:#A80036;stroke-width:1.0;" x1="323.62" x2="317.62" y1="1009.98" y2="1017.98"/><line style="stroke:#A80036;stroke-width:1.0;" x1="323.62" x2="323.62" y1="1009.98" y2="1017.98"/><ellipse cx="323.62" cy="1003.98" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="319.62" x2="327.62" y1="955.92" y2="955.92"/><line style="stroke:#A80036;stroke-width:1.0;" x1="319.62" x2="327.62" y1="958.92" y2="958.92"/><line style="stroke:#A80036;stroke-width:1.0;" x1="323.62" x2="323.62" y1="959.92" y2="951.92"/><!--MD5=[8c0835971d966be6a8d860f4ee2f4601]
+link CaraterCT to GrauProficiencia--><path codeLine="173" d="M418.97,1122.74 C450.97,1140.27 486.49,1159.73 517.88,1176.93 " fill="none" id="CaraterCT-GrauProficiencia" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="523.3439" x2="519.5001" y1="1175.3601" y2="1182.3761"/><line style="stroke:#A80036;stroke-width:1.0;" x1="520.7129" x2="516.869" y1="1173.9186" y2="1180.9347"/><line style="stroke:#A80036;stroke-width:1.0;" x1="517.9139" x2="524.93" y1="1176.9462" y2="1180.79"/><line style="stroke:#A80036;stroke-width:1.0;" x1="418.7061" x2="408.8071" y1="1122.5938" y2="1124.012"/><line style="stroke:#A80036;stroke-width:1.0;" x1="418.7061" x2="414.5729" y1="1122.5938" y2="1113.488"/><line style="stroke:#A80036;stroke-width:1.0;" x1="418.7061" x2="411.69" y1="1122.5938" y2="1118.75"/><ellipse cx="423.9681" cy="1125.4767" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><!--MD5=[439a6ad1de0b5aa57a973cae1bf36ce5]
+link Anuncio to Tarefa--><path codeLine="174" d="M953.4,351.32 C937.03,429.97 910.26,533.8 878.62,562 C766.7,661.78 691.48,583.28 546.62,622 C490.77,636.93 429.39,659.01 382.82,677 " fill="none" id="Anuncio-Tarefa" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="380.3678" x2="377.4682" y1="682.2382" y2="674.7822"/><line style="stroke:#A80036;stroke-width:1.0;" x1="383.1638" x2="380.2642" y1="681.1509" y2="673.6949"/><line style="stroke:#A80036;stroke-width:1.0;" x1="382.646" x2="375.19" y1="677.0604" y2="679.96"/><line style="stroke:#A80036;stroke-width:1.0;" x1="952.8285" x2="955.05" y1="354.0833" y2="343.31"/><ellipse cx="952.8285" cy="354.0833" fill="none" rx="4" ry="4" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="950.3246" x2="958.1598" y1="346.4198" y2="348.0354"/><!--MD5=[39895b9c2922aad3516c3e8c89f2b592]
+@startuml
+
+!define table(x) class x << (T,#FFAAAA) >>
+
+
+table(Organizacao)  {
+  NIF < PK >
+  email<FK | UK>
+  idEnderecoPostal < FK >
+  emailGestor<FK>
+  website
+}
+
+table(Colaborador){
+    emailColaborador<PK | FK>
+    NIFOrganizacao < FK >
+}
+
+table(EnderecoPostal){
+    id < PK >
+    morada
+    codigopostal
+    localidade
+}
+
+table(Tarefa){
+    referencia < PK >
+    designacao
+    descInformal
+    descTecnica
+    duracaoEst
+    custoEst
+    emailColaborador < FK >
+    NIFOrganizacao<PK | FK>
+    idCatTar < FK >
+}
+
+table(Utilizador){
+    email < PK >
+    nome
+    telefone
+}
+
+table(Freelancer){
+    NIF < PK >
+    emailUser< FK | UK >
+    idEnderecoPostal < FK >
+}
+
+table(CategoriaTarefa){
+    id < PK > 
+    desc
+    idAreaAtividade < FK >
+}
+
+table(CompetenciaTecnica){
+    codUnico < PK >
+    descBreve
+    descDetalhada
+    idAreaAtividade < FK > 
+}
+
+
+table(Anuncio){
+    id <PK | FK >
+    dtInicioPublicacao
+    dtFimPublicacao
+    dtIdnicioCandidatura
+    dtFimCandidatura
+    dtInicioSeriacao
+    dtFimSeriacao
+    idTipoRegimento<FK>
+    nifOrganizacao<FK>
+}
+
+
+table(AreaAtividade){
+    id <PK>
+    descBreve
+    descDetalhada
+}
+
+table(GrauProficiencia){
+    valor <PK>
+    designacao
+    codCompetenciaTecnica <PK | FK>
+}
+
+
+table(HabilitacaoAcademica){
+    id<PK>
+    grau
+    designacaoCurso
+    nomeInstituicao
+    mediaCurso
+    NIFFreelancer<FK>
+}
+
+table(TipoRegimento){
+    id <PK>
+    designacao
+    descricao
+}
+
+table(CaraterCT){ 
+    idCategoriaTarefa<PK | FK>
+    codCompetenciaTecnica<PK | FK>
+    obrigatorio
+    grauMinimoProficiencia <FK>
+}
+
+table(ReconhecimentoCT){
+    dataReconhecimento
+    NIFFreelancer <PK, FK>
+    valorCompetenciaTecnicaReconhecido <PK | FK>
+    codCompetenciaTecnica <PK | FK>
+}
+
+table(ProcessoSeriacao){
+    dataRealizacao
+    emailColaborador <FK>
+    idAnuncio <PK | FK>
+}
+
+table(Classificacao){
+    idProcessoSeriacao< PK | FK >
+    dataHora
+    lugarClassificacao
+    idCandidatura < PK | FK >
+}
+
+table(ListaColaboradorProcessoSeriacao){
+    idProcessoSeriacao<FK>
+    emailColaborador<FK>
+}
+
+table(Candidatura){
+    id <PK>
+    dataCandidatura
+    valorPretendido
+    nrDias
+    txtApresentacao <N>
+    txtMotivacao<N>
+    NIFFreelancer<FK>
+    idAnuncio<FK>
+}
+
+User ||- -o{ Colaborador
+User ||- -o{ Freelancer
+User ||- -o{ Organizacao
+
+Organizacao ||- -o{ Tarefa
+Classificacao |o- -o{ Candidatura
+Classificacao ||- -|{ ListaColaboradorClassificacao
+ListaColaboradorClassificacao }o- -|| Colaborador
+Classificacao ||- -|| ProcessoSeriacao
+Anuncio ||- -o| ProcessoSeriacao
+Colaborador ||- -o{ Tarefa
+Freelancer ||- -o{ Candidatura
+Freelancer |o- -|| EnderecoPostal
+Freelancer ||- -|{ ReconhecimentoCT
+ReconhecimentoCT }o- -|| GrauProficiencia
+Organizacao|o- -|| EnderecoPostal
+Organizacao ||- -|| Colaborador
+Organizacao ||- -|{ Colaborador
+Freelancer ||- -|{ HabilitacaoAcademica
+CompetenciaTecnica |o- -|| AreaAtividade
+CompetenciaTecnica ||- -|{ GrauProficiencia
+CategoriaTarefa }o- -|| AreaAtividade
+Tarefa }o- -|| CategoriaTarefa
+Anuncio ||- -o{ Candidatura
+Anuncio }o- -|| TipoRegimento
+CategoriaTarefa ||- -o{ CaraterCT
+CaraterCT }o- -||GrauProficiencia
+Anuncio |o- -|| Tarefa
+@enduml
+
+@startuml
+
+
+
+class Organizacao << (T,#FFAAAA) >>  {
+  NIF < PK >
+  email<FK | UK>
+  idEnderecoPostal < FK >
+  emailGestor<FK>
+  website
+}
+
+class Colaborador << (T,#FFAAAA) >>{
+    emailColaborador<PK | FK>
+    NIFOrganizacao < FK >
+}
+
+class EnderecoPostal << (T,#FFAAAA) >>{
+    id < PK >
+    morada
+    codigopostal
+    localidade
+}
+
+class Tarefa << (T,#FFAAAA) >>{
+    referencia < PK >
+    designacao
+    descInformal
+    descTecnica
+    duracaoEst
+    custoEst
+    emailColaborador < FK >
+    NIFOrganizacao<PK | FK>
+    idCatTar < FK >
+}
+
+class Utilizador << (T,#FFAAAA) >>{
+    email < PK >
+    nome
+    telefone
+}
+
+class Freelancer << (T,#FFAAAA) >>{
+    NIF < PK >
+    emailUser< FK | UK >
+    idEnderecoPostal < FK >
+}
+
+class CategoriaTarefa << (T,#FFAAAA) >>{
+    id < PK > 
+    desc
+    idAreaAtividade < FK >
+}
+
+class CompetenciaTecnica << (T,#FFAAAA) >>{
+    codUnico < PK >
+    descBreve
+    descDetalhada
+    idAreaAtividade < FK > 
+}
+
+
+class Anuncio << (T,#FFAAAA) >>{
+    id <PK | FK >
+    dtInicioPublicacao
+    dtFimPublicacao
+    dtIdnicioCandidatura
+    dtFimCandidatura
+    dtInicioSeriacao
+    dtFimSeriacao
+    idTipoRegimento<FK>
+    nifOrganizacao<FK>
+}
+
+
+class AreaAtividade << (T,#FFAAAA) >>{
+    id <PK>
+    descBreve
+    descDetalhada
+}
+
+class GrauProficiencia << (T,#FFAAAA) >>{
+    valor <PK>
+    designacao
+    codCompetenciaTecnica <PK | FK>
+}
+
+
+class HabilitacaoAcademica << (T,#FFAAAA) >>{
+    id<PK>
+    grau
+    designacaoCurso
+    nomeInstituicao
+    mediaCurso
+    NIFFreelancer<FK>
+}
+
+class TipoRegimento << (T,#FFAAAA) >>{
+    id <PK>
+    designacao
+    descricao
+}
+
+class CaraterCT << (T,#FFAAAA) >>{ 
+    idCategoriaTarefa<PK | FK>
+    codCompetenciaTecnica<PK | FK>
+    obrigatorio
+    grauMinimoProficiencia <FK>
+}
+
+class ReconhecimentoCT << (T,#FFAAAA) >>{
+    dataReconhecimento
+    NIFFreelancer <PK, FK>
+    valorCompetenciaTecnicaReconhecido <PK | FK>
+    codCompetenciaTecnica <PK | FK>
+}
+
+class ProcessoSeriacao << (T,#FFAAAA) >>{
+    dataRealizacao
+    emailColaborador <FK>
+    idAnuncio <PK | FK>
+}
+
+class Classificacao << (T,#FFAAAA) >>{
+    idProcessoSeriacao< PK | FK >
+    dataHora
+    lugarClassificacao
+    idCandidatura < PK | FK >
+}
+
+class ListaColaboradorProcessoSeriacao << (T,#FFAAAA) >>{
+    idProcessoSeriacao<FK>
+    emailColaborador<FK>
+}
+
+class Candidatura << (T,#FFAAAA) >>{
+    id <PK>
+    dataCandidatura
+    valorPretendido
+    nrDias
+    txtApresentacao <N>
+    txtMotivacao<N>
+    NIFFreelancer<FK>
+    idAnuncio<FK>
+}
+
+User ||- -o{ Colaborador
+User ||- -o{ Freelancer
+User ||- -o{ Organizacao
+
+Organizacao ||- -o{ Tarefa
+Classificacao |o- -o{ Candidatura
+Classificacao ||- -|{ ListaColaboradorClassificacao
+ListaColaboradorClassificacao }o- -|| Colaborador
+Classificacao ||- -|| ProcessoSeriacao
+Anuncio ||- -o| ProcessoSeriacao
+Colaborador ||- -o{ Tarefa
+Freelancer ||- -o{ Candidatura
+Freelancer |o- -|| EnderecoPostal
+Freelancer ||- -|{ ReconhecimentoCT
+ReconhecimentoCT }o- -|| GrauProficiencia
+Organizacao|o- -|| EnderecoPostal
+Organizacao ||- -|| Colaborador
+Organizacao ||- -|{ Colaborador
+Freelancer ||- -|{ HabilitacaoAcademica
+CompetenciaTecnica |o- -|| AreaAtividade
+CompetenciaTecnica ||- -|{ GrauProficiencia
+CategoriaTarefa }o- -|| AreaAtividade
+Tarefa }o- -|| CategoriaTarefa
+Anuncio ||- -o{ Candidatura
+Anuncio }o- -|| TipoRegimento
+CategoriaTarefa ||- -o{ CaraterCT
+CaraterCT }o- -||GrauProficiencia
+Anuncio |o- -|| Tarefa
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 WET 2021)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: Cp1252
+Language: en
+Country: US
+--></g></svg>

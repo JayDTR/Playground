@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="1462px" preserveAspectRatio="none" style="width:2843px;height:1462px;" version="1.1" viewBox="0 0 2843 1462" width="2843px" zoomAndPan="magnify"><defs><filter height="300%" id="fhh6nt5yz8sqz" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="1258.8516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="62" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="476" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="211.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="476" y="199.0156"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="365.5469" style="stroke:#A80036;stroke-width:1.0;" width="10" x="476" y="441.125"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="252.9766" style="stroke:#A80036;stroke-width:1.0;" width="10" x="476" y="837.0234"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="238.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="476" y="1120.3516"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="181.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780" y="229.3672"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="245.625" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780" y="471.4766"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="185.2734" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780" y="867.375"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="207.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780" y="1150.7031"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1007" y="259.7188"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1007" y="562.1797"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1118.5" y="350.4219"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1118.5" y="501.8281"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="94.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1237.5" y="622.5313"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="177.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1237.5" y="1181.0547"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="54.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1557" y="662.8828"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="154.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1557" y="897.7266"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2449.5" y="350.4219"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2595" y="1298.1094"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2749" y="1022.6484"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="294.6797" style="stroke:#000000;stroke-width:2.0;" width="2819" x="10" y="765.9688"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="67" x2="67" y1="89.6094" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="481" x2="481" y1="89.6094" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="785" x2="785" y1="89.6094" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1012" x2="1012" y1="89.6094" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1123" x2="1123" y1="89.6094" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1242" x2="1242" y1="89.6094" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1561.5" x2="1561.5" y1="672.6406" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1861" x2="1861" y1="947.8359" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2022" x2="2022" y1="736.8594" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2194" x2="2194" y1="89.6094" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2333" x2="2333" y1="89.6094" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2454" x2="2454" y1="89.6094" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2600" x2="2600" y1="89.6094" y2="1376.4609"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="2754" x2="2754" y1="89.6094" y2="1376.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="20" y="86.5332">Administrativo</text><ellipse cx="67" cy="15" fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M67,23 L67,50 M54,31 L80,31 M67,50 L54,65 M67,50 L80,65 " fill="none" filter="url(#fhh6nt5yz8sqz)" style="stroke:#A80036;stroke-width:2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="20" y="1389.9941">Administrativo</text><ellipse cx="67" cy="1403.0703" fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" rx="8" ry="8" style="stroke:#A80036;stroke-width:2.0;"/><path d="M67,1411.0703 L67,1438.0703 M54,1419.0703 L80,1419.0703 M67,1438.0703 L54,1453.0703 M67,1438.0703 L80,1453.0703 " fill="none" filter="url(#fhh6nt5yz8sqz)" style="stroke:#A80036;stroke-width:2.0;"/><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="232" x="363" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="370" y="74.5332">:EspecificarCompetenciaTecnicaUI</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="232" x="363" y="1375.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="218" x="370" y="1396.9941">:EspecificarCompetenciaTecnicaUI</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="282" x="642" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="268" x="649" y="74.5332">:EspecificarCompetenciaTecnicaController</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="282" x="642" y="1375.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="268" x="649" y="1396.9941">:EspecificarCompetenciaTecnicaController</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="86" x="967" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="974" y="74.5332">:Plataforma</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="86" x="967" y="1375.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="974" y="1396.9941">:Plataforma</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="109" x="1067" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="1096" y="56.9238">rat:Lista</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1074" y="74.5332">AreasAtividade</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="109" x="1067" y="1375.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="1096" y="1396.9941">rat:Lista</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="1074" y="1414.6035">AreasAtividade</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="101" x="1190" y="53"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="1197" y="74.5332">rct:RegistoCT</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="31.6094" style="stroke:#A80036;stroke-width:1.5;" width="101" x="1190" y="1375.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="1197" y="1396.9941">rct:RegistoCT</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="151" x="1484.5" y="1375.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="11" x="1554.5" y="1396.9941">ct</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="1491.5" y="1414.6035">:CompetenciaTecnica</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="123" x="1798" y="1375.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="1845" y="1396.9941">grau</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1805" y="1414.6035">:GrauProficiencia</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="171" x="1935" y="1375.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="13" x="2014" y="1396.9941">rg</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="1942" y="1414.6035">:RegistoGrauProficiencia</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="144" x="2120" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="11" x="2186.5" y="56.9238">la</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="2127" y="74.5332">:List&lt;AreaAtividade&gt;</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="144" x="2120" y="1375.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="11" x="2186.5" y="1396.9941">la</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="2127" y="1414.6035">:List&lt;AreaAtividade&gt;</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="106" x="2278" y="35.3906"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="12" x="2325" y="56.9238">at</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="2285" y="74.5332">:AreaAtividade</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="106" x="2278" y="1375.4609"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="12" x="2325" y="1396.9941">at</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="2285" y="1414.6035">:AreaAtividade</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="2398" y="86.5332">AreaAtividadeDB</text><path d="M2436.5,36 C2436.5,26 2454.5,26 2454.5,26 C2454.5,26 2472.5,26 2472.5,36 L2472.5,62 C2472.5,72 2454.5,72 2454.5,72 C2454.5,72 2436.5,72 2436.5,62 L2436.5,36 " fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" style="stroke:#000000;stroke-width:1.5;"/><path d="M2436.5,36 C2436.5,46 2454.5,46 2454.5,46 C2454.5,46 2472.5,46 2472.5,36 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="2398" y="1389.9941">AreaAtividadeDB</text><path d="M2436.5,1403.0703 C2436.5,1393.0703 2454.5,1393.0703 2454.5,1393.0703 C2454.5,1393.0703 2472.5,1393.0703 2472.5,1403.0703 L2472.5,1429.0703 C2472.5,1439.0703 2454.5,1439.0703 2454.5,1439.0703 C2454.5,1439.0703 2436.5,1439.0703 2436.5,1429.0703 L2436.5,1403.0703 " fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" style="stroke:#000000;stroke-width:1.5;"/><path d="M2436.5,1403.0703 C2436.5,1413.0703 2454.5,1413.0703 2454.5,1413.0703 C2454.5,1413.0703 2472.5,1413.0703 2472.5,1403.0703 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="2521" y="86.5332">CompetenciaTecnicaDB</text><path d="M2582,36 C2582,26 2600,26 2600,26 C2600,26 2618,26 2618,36 L2618,62 C2618,72 2600,72 2600,72 C2600,72 2582,72 2582,62 L2582,36 " fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" style="stroke:#000000;stroke-width:1.5;"/><path d="M2582,36 C2582,46 2600,46 2600,46 C2600,46 2618,46 2618,36 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="152" x="2521" y="1389.9941">CompetenciaTecnicaDB</text><path d="M2582,1403.0703 C2582,1393.0703 2600,1393.0703 2600,1393.0703 C2600,1393.0703 2618,1393.0703 2618,1403.0703 L2618,1429.0703 C2618,1439.0703 2600,1439.0703 2600,1439.0703 C2600,1439.0703 2582,1439.0703 2582,1429.0703 L2582,1403.0703 " fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" style="stroke:#000000;stroke-width:1.5;"/><path d="M2582,1403.0703 C2582,1413.0703 2600,1413.0703 2600,1413.0703 C2600,1413.0703 2618,1413.0703 2618,1403.0703 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="2689" y="86.5332">GrauProficienciaDB</text><path d="M2736,36 C2736,26 2754,26 2754,26 C2754,26 2772,26 2772,36 L2772,62 C2772,72 2754,72 2754,72 C2754,72 2736,72 2736,62 L2736,36 " fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" style="stroke:#000000;stroke-width:1.5;"/><path d="M2736,36 C2736,46 2754,46 2754,46 C2754,46 2772,46 2772,36 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="124" x="2689" y="1389.9941">GrauProficienciaDB</text><path d="M2736,1403.0703 C2736,1393.0703 2754,1393.0703 2754,1393.0703 C2754,1393.0703 2772,1393.0703 2772,1403.0703 L2772,1429.0703 C2772,1439.0703 2754,1439.0703 2754,1439.0703 C2754,1439.0703 2736,1439.0703 2736,1429.0703 L2736,1403.0703 " fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" style="stroke:#000000;stroke-width:1.5;"/><path d="M2736,1403.0703 C2736,1413.0703 2754,1413.0703 2754,1413.0703 C2754,1413.0703 2772,1413.0703 2772,1403.0703 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="1258.8516" style="stroke:#A80036;stroke-width:1.0;" width="10" x="62" y="99.6094"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="46.7031" style="stroke:#A80036;stroke-width:1.0;" width="10" x="476" y="121.9609"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="211.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="476" y="199.0156"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="365.5469" style="stroke:#A80036;stroke-width:1.0;" width="10" x="476" y="441.125"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="252.9766" style="stroke:#A80036;stroke-width:1.0;" width="10" x="476" y="837.0234"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="238.1094" style="stroke:#A80036;stroke-width:1.0;" width="10" x="476" y="1120.3516"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="181.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780" y="229.3672"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="245.625" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780" y="471.4766"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="185.2734" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780" y="867.375"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="207.7578" style="stroke:#A80036;stroke-width:1.0;" width="10" x="780" y="1150.7031"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1007" y="259.7188"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1007" y="562.1797"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1118.5" y="350.4219"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1118.5" y="501.8281"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="94.5703" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1237.5" y="622.5313"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="177.4063" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1237.5" y="1181.0547"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="54.2188" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1557" y="662.8828"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="154.9219" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1557" y="897.7266"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2449.5" y="350.4219"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2595" y="1298.1094"/><rect fill="#FFFFFF" filter="url(#fhh6nt5yz8sqz)" height="30" style="stroke:#A80036;stroke-width:1.0;" width="10" x="2749" y="1022.6484"/><polygon fill="#A80036" points="464,117.9609,474,121.9609,464,125.9609,468,121.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="72" x2="470" y1="121.9609" y2="121.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="79" y="117.1045">1</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="295" x="90" y="117.1045">inicia a especificação de uma competência técnica</text><polygon fill="#A80036" points="83,164.6641,73,168.6641,83,172.6641,79,168.6641" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="77" x2="480" y1="168.6641" y2="168.6641"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="89" y="155.6318">2</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="98" x="100" y="147.4561">solicita os dados</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="250" x="100" y="163.8076">(código único, descrição breve e detalhada)</text><polygon fill="#A80036" points="464,195.0156,474,199.0156,464,203.0156,468,199.0156" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="72" x2="470" y1="199.0156" y2="199.0156"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="79" y="194.1592">3</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="90" y="194.1592">introduz os dados solicitados</text><polygon fill="#A80036" points="768,225.3672,778,229.3672,768,233.3672,772,229.3672" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="486" x2="774" y1="229.3672" y2="229.3672"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="493" y="224.5107">4</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="504" y="224.5107">la=getAreasAtividade()</text><polygon fill="#A80036" points="995,255.7188,1005,259.7188,995,263.7188,999,259.7188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="790" x2="1001" y1="259.7188" y2="259.7188"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="797" y="254.8623">5</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="187" x="808" y="254.8623">rat = getRegistoAreasAtividade()</text><polygon fill="#A80036" points="1111.5,316.0703,1121.5,320.0703,1111.5,324.0703,1115.5,320.0703" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="790" x2="1117.5" y1="320.0703" y2="320.0703"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="797" y="315.2139">6</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="808" y="315.2139">la=getAreasAtividade()</text><polygon fill="#A80036" points="2437.5,346.4219,2447.5,350.4219,2437.5,354.4219,2441.5,350.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1128.5" x2="2443.5" y1="350.4219" y2="350.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="1135.5" y="345.5654">7</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="99" x="1146.5" y="345.5654">listaAA = getAll()</text><polygon fill="#A80036" points="83,406.7734,73,410.7734,83,414.7734,79,410.7734" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="77" x2="480" y1="410.7734" y2="410.7734"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="89" y="405.917">8</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="369" x="100" y="405.917">mostra a lista de áreas de atividade e pede para selecionar uma</text><polygon fill="#A80036" points="464,437.125,474,441.125,464,445.125,468,441.125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="72" x2="470" y1="441.125" y2="441.125"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="7" x="79" y="436.2686">9</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="185" x="90" y="436.2686">seleciona uma área de atividade</text><polygon fill="#A80036" points="768,467.4766,778,471.4766,768,475.4766,772,471.4766" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="486" x2="774" y1="471.4766" y2="471.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="493" y="466.6201">10</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="257" x="511" y="466.6201">novaCompetencia(cod,dsBreve,dsDet,atCod)</text><polygon fill="#A80036" points="1106.5,497.8281,1116.5,501.8281,1106.5,505.8281,1110.5,501.8281" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="790" x2="1112.5" y1="501.8281" y2="501.8281"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="797" y="496.9717">11</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="177" x="815" y="496.9717">aa=getAreaAtividadeById(aaId)</text><polygon fill="#A80036" points="995,558.1797,1005,562.1797,995,566.1797,999,562.1797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="790" x2="1001" y1="562.1797" y2="562.1797"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="797" y="557.3232">12</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="815" y="557.3232">rct=getRegistoCT()</text><polygon fill="#A80036" points="1225.5,618.5313,1235.5,622.5313,1225.5,626.5313,1229.5,622.5313" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="790" x2="1231.5" y1="622.5313" y2="622.5313"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="797" y="617.6748">13</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="253" x="815" y="617.6748">ct=novaCompetencia(cod,dsBreve,dsDet,at)</text><polygon fill="#A80036" points="1472.5,648.8828,1482.5,652.8828,1472.5,656.8828,1476.5,652.8828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1247.5" x2="1478.5" y1="652.8828" y2="652.8828"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1254.5" y="648.0264">14</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="195" x="1272.5" y="648.0264">ct = create(cod,dsBreve,dsDet,at)</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="151" x="1484.5" y="630.5313"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="11" x="1554.5" y="652.0645">ct</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="137" x="1491.5" y="669.6738">:CompetenciaTecnica</text><polygon fill="#A80036" points="1923,713.1016,1933,717.1016,1923,721.1016,1927,717.1016" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="1562" x2="1929" y1="717.1016" y2="717.1016"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1569" y="712.2451">15</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="44" x="1587" y="712.2451">create()</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="171" x="1935" y="694.75"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="13" x="2014" y="716.2832">rg</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="157" x="1942" y="733.8926">:RegistoGrauProficiencia</text><path d="M10,765.9688 L83,765.9688 L83,773.9688 L73,783.9688 L10,783.9688 L10,765.9688 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="294.6797" style="stroke:#000000;stroke-width:2.0;" width="2819" x="10" y="765.9688"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="28" x="25" y="780.4639">loop</text><polygon fill="#A80036" points="83,802.6719,73,806.6719,83,810.6719,79,806.6719" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="77" x2="480" y1="806.6719" y2="806.6719"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="89" y="801.8154">16</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="279" x="107" y="801.8154">solicita os vários graus de proficiência aplicaveis</text><polygon fill="#A80036" points="464,833.0234,474,837.0234,464,841.0234,468,837.0234" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="72" x2="470" y1="837.0234" y2="837.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="79" y="832.167">17</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="97" y="832.167">introduz os dados de cada grau</text><polygon fill="#A80036" points="768,863.375,778,867.375,768,871.375,772,867.375" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="486" x2="774" y1="867.375" y2="867.375"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="493" y="862.5186">18</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="224" x="511" y="862.5186">addGrauProficiencia(valor, designacao)</text><polygon fill="#A80036" points="1545,893.7266,1555,897.7266,1545,901.7266,1549,897.7266" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="790" x2="1551" y1="897.7266" y2="897.7266"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="797" y="892.8701">19</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="243" x="815" y="892.8701">addGrauProficiencia(valor, designacao, ct)</text><polygon fill="#A80036" points="1786,924.0781,1796,928.0781,1786,932.0781,1790,928.0781" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1567" x2="1792" y1="928.0781" y2="928.0781"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1574" y="923.2217">20</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="189" x="1592" y="923.2217">gp = create(valor,designacao, ct)</text><rect fill="#FEFECE" filter="url(#fhh6nt5yz8sqz)" height="49.2188" style="stroke:#A80036;stroke-width:1.5;" width="123" x="1798" y="905.7266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="29" x="1845" y="927.2598">grau</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="109" x="1805" y="944.8691">:GrauProficiencia</text><polygon fill="#A80036" points="2010.5,988.2969,2020.5,992.2969,2010.5,996.2969,2014.5,992.2969" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1567" x2="2016.5" y1="992.2969" y2="992.2969"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1574" y="987.4404">21</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="43" x="1592" y="987.4404">add(gp)</text><polygon fill="#A80036" points="2737,1018.6484,2747,1022.6484,2737,1026.6484,2741,1022.6484" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="2022.5" x2="2743" y1="1022.6484" y2="1022.6484"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="2029.5" y="1017.792">22</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="2047.5" y="1017.792">insertGP(gp)</text><polygon fill="#A80036" points="83,1086,73,1090,83,1094,79,1090" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="77" x2="480" y1="1090" y2="1090"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="89" y="1085.1436">23</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="244" x="107" y="1085.1436">apresenta os dados e solicita confirmação</text><polygon fill="#A80036" points="464,1116.3516,474,1120.3516,464,1124.3516,468,1120.3516" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="72" x2="470" y1="1120.3516" y2="1120.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="79" y="1115.4951">24</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="106" x="97" y="1115.4951">confirma os dados</text><polygon fill="#A80036" points="768,1146.7031,778,1150.7031,768,1154.7031,772,1150.7031" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="486" x2="774" y1="1150.7031" y2="1150.7031"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="493" y="1145.8467">25</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="123" x="511" y="1145.8467">registaCompetencia()</text><polygon fill="#A80036" points="1225.5,1177.0547,1235.5,1181.0547,1225.5,1185.0547,1229.5,1181.0547" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="790" x2="1231.5" y1="1181.0547" y2="1181.0547"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="797" y="1176.1982">26</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="815" y="1176.1982">registaCompetencia(ct)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1247.5" x2="1289.5" y1="1211.4063" y2="1211.4063"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1289.5" x2="1289.5" y1="1211.4063" y2="1224.4063"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1248.5" x2="1289.5" y1="1224.4063" y2="1224.4063"/><polygon fill="#A80036" points="1258.5,1220.4063,1248.5,1224.4063,1258.5,1228.4063,1254.5,1224.4063" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1254.5" y="1206.5498">27</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="1272.5" y="1206.5498">validaCompetencia(ct)</text><line style="stroke:#A80036;stroke-width:1.0;" x1="1247.5" x2="1289.5" y1="1254.7578" y2="1254.7578"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1289.5" x2="1289.5" y1="1254.7578" y2="1267.7578"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1248.5" x2="1289.5" y1="1267.7578" y2="1267.7578"/><polygon fill="#A80036" points="1258.5,1263.7578,1248.5,1267.7578,1258.5,1271.7578,1254.5,1267.7578" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1254.5" y="1249.9014">28</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="1272.5" y="1249.9014">addCompetencia(ct)</text><polygon fill="#A80036" points="2583,1294.1094,2593,1298.1094,2583,1302.1094,2587,1298.1094" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="1247.5" x2="2589" y1="1298.1094" y2="1298.1094"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="1254.5" y="1293.2529">29</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="1272.5" y="1293.2529">insertCT(ct)</text><polygon fill="#A80036" points="78,1354.4609,68,1358.4609,78,1362.4609,74,1358.4609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="72" x2="480" y1="1358.4609" y2="1358.4609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacing" textLength="14" x="84" y="1353.6045">30</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="188" x="102" y="1353.6045">informa do sucesso da operação</text><!--MD5=[dedb54422a5d4d554019ead90b97ffe5]
+@startuml
+autonumber
+'hide footbox
+actor "Administrativo" as ADM
+
+participant ":EspecificarCompetenciaTecnicaUI" as UI
+participant ":EspecificarCompetenciaTecnicaController" as CTRL
+participant ":Plataforma" as PLAT
+participant "rat:Lista\nAreasAtividade" as RAT
+participant "rct:RegistoCT" as RCT
+participant "ct\n:CompetenciaTecnica" as COMPETENCIA
+participant "grau\n:GrauProficiencia" as GP
+participant "rg\n:RegistoGrauProficiencia" as LGRAUS
+participant "la\n:List<AreaAtividade>" as LISTA_AREAS
+participant "at\n:AreaAtividade" as AREA
+database AreaAtividadeDB as aaDB 
+database CompetenciaTecnicaDB as ctDB
+database GrauProficienciaDB as gpDB
+
+activate ADM
+ADM -> UI : inicia a especificação de uma competência técnica
+activate UI
+UI - -> ADM : solicita os dados \n(código único, descrição breve e detalhada)
+deactivate UI
+
+ADM -> UI : introduz os dados solicitados
+activate UI
+
+UI -> CTRL : la=getAreasAtividade()
+activate CTRL
+
+CTRL -> PLAT : rat = getRegistoAreasAtividade()
+activate PLAT
+deactivate PLAT
+
+CTRL -> RAT : la=getAreasAtividade()
+RAT -> aaDB : listaAA = getAll()
+activate aaDB 
+deactivate aaDB
+activate RAT
+deactivate RAT
+
+UI - -> ADM : mostra a lista de áreas de atividade e pede para selecionar uma
+deactivate CTRL
+deactivate UI
+
+ADM -> UI : seleciona uma área de atividade
+activate UI
+
+UI -> CTRL : novaCompetencia(cod,dsBreve,dsDet,atCod)
+activate CTRL
+
+CTRL -> RAT: aa=getAreaAtividadeById(aaId)
+activate RAT
+deactivate RAT
+
+CTRL -> PLAT: rct=getRegistoCT()
+activate PLAT
+deactivate PLAT
+
+
+CTRL -> RCT: ct=novaCompetencia(cod,dsBreve,dsDet,at)
+activate RCT
+
+RCT - -> COMPETENCIA**: ct = create(cod,dsBreve,dsDet,at)
+activate COMPETENCIA
+COMPETENCIA - -> LGRAUS**: create()
+deactivate COMPETENCIA
+deactivate RCT
+deactivate CTRL
+
+loop
+UI - -> ADM : solicita os vários graus de proficiência aplicaveis
+deactivate UI
+
+ADM -> UI : introduz os dados de cada grau
+activate UI
+
+UI -> CTRL :  addGrauProficiencia(valor, designacao)
+activate CTRL
+
+CTRL -> COMPETENCIA : addGrauProficiencia(valor, designacao, ct)
+activate COMPETENCIA
+
+COMPETENCIA -> GP** : gp = create(valor,designacao, ct)
+
+COMPETENCIA -> LGRAUS: add(gp)
+LGRAUS -> gpDB : insertGP(gp)
+activate gpDB
+deactivate gpDB
+deactivate COMPETENCIA
+deactivate CTRL
+
+end loop
+
+UI - -> ADM : apresenta os dados e solicita confirmação
+deactivate PLAT
+deactivate CTRL
+deactivate UI
+
+ADM -> UI : confirma os dados
+activate UI
+UI -> CTRL : registaCompetencia()
+activate CTRL
+
+CTRL -> RCT : registaCompetencia(ct)
+activate RCT
+
+RCT -> RCT : validaCompetencia(ct)
+RCT -> RCT : addCompetencia(ct)
+RCT -> ctDB : insertCT(ct)
+activate ctDB
+deactivate ctDB
+
+UI - -> ADM : informa do sucesso da operação
+deactivate RCT
+deactivate CTRL
+deactivate UI
+
+deactivate ADM
+
+@enduml
+
+@startuml
+autonumber
+actor "Administrativo" as ADM
+
+participant ":EspecificarCompetenciaTecnicaUI" as UI
+participant ":EspecificarCompetenciaTecnicaController" as CTRL
+participant ":Plataforma" as PLAT
+participant "rat:Lista\nAreasAtividade" as RAT
+participant "rct:RegistoCT" as RCT
+participant "ct\n:CompetenciaTecnica" as COMPETENCIA
+participant "grau\n:GrauProficiencia" as GP
+participant "rg\n:RegistoGrauProficiencia" as LGRAUS
+participant "la\n:List<AreaAtividade>" as LISTA_AREAS
+participant "at\n:AreaAtividade" as AREA
+database AreaAtividadeDB as aaDB 
+database CompetenciaTecnicaDB as ctDB
+database GrauProficienciaDB as gpDB
+
+activate ADM
+ADM -> UI : inicia a especificação de uma competência técnica
+activate UI
+UI - -> ADM : solicita os dados \n(código único, descrição breve e detalhada)
+deactivate UI
+
+ADM -> UI : introduz os dados solicitados
+activate UI
+
+UI -> CTRL : la=getAreasAtividade()
+activate CTRL
+
+CTRL -> PLAT : rat = getRegistoAreasAtividade()
+activate PLAT
+deactivate PLAT
+
+CTRL -> RAT : la=getAreasAtividade()
+RAT -> aaDB : listaAA = getAll()
+activate aaDB 
+deactivate aaDB
+activate RAT
+deactivate RAT
+
+UI - -> ADM : mostra a lista de áreas de atividade e pede para selecionar uma
+deactivate CTRL
+deactivate UI
+
+ADM -> UI : seleciona uma área de atividade
+activate UI
+
+UI -> CTRL : novaCompetencia(cod,dsBreve,dsDet,atCod)
+activate CTRL
+
+CTRL -> RAT: aa=getAreaAtividadeById(aaId)
+activate RAT
+deactivate RAT
+
+CTRL -> PLAT: rct=getRegistoCT()
+activate PLAT
+deactivate PLAT
+
+
+CTRL -> RCT: ct=novaCompetencia(cod,dsBreve,dsDet,at)
+activate RCT
+
+RCT - -> COMPETENCIA**: ct = create(cod,dsBreve,dsDet,at)
+activate COMPETENCIA
+COMPETENCIA - -> LGRAUS**: create()
+deactivate COMPETENCIA
+deactivate RCT
+deactivate CTRL
+
+loop
+UI - -> ADM : solicita os vários graus de proficiência aplicaveis
+deactivate UI
+
+ADM -> UI : introduz os dados de cada grau
+activate UI
+
+UI -> CTRL :  addGrauProficiencia(valor, designacao)
+activate CTRL
+
+CTRL -> COMPETENCIA : addGrauProficiencia(valor, designacao, ct)
+activate COMPETENCIA
+
+COMPETENCIA -> GP** : gp = create(valor,designacao, ct)
+
+COMPETENCIA -> LGRAUS: add(gp)
+LGRAUS -> gpDB : insertGP(gp)
+activate gpDB
+deactivate gpDB
+deactivate COMPETENCIA
+deactivate CTRL
+
+end loop
+
+UI - -> ADM : apresenta os dados e solicita confirmação
+deactivate PLAT
+deactivate CTRL
+deactivate UI
+
+ADM -> UI : confirma os dados
+activate UI
+UI -> CTRL : registaCompetencia()
+activate CTRL
+
+CTRL -> RCT : registaCompetencia(ct)
+activate RCT
+
+RCT -> RCT : validaCompetencia(ct)
+RCT -> RCT : addCompetencia(ct)
+RCT -> ctDB : insertCT(ct)
+activate ctDB
+deactivate ctDB
+
+UI - -> ADM : informa do sucesso da operação
+deactivate RCT
+deactivate CTRL
+deactivate UI
+
+deactivate ADM
+
+@enduml
+
+PlantUML version 1.2021.00(Sun Jan 10 10:25:05 WET 2021)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: Cp1252
+Language: pt
+Country: PT
+--></g></svg>

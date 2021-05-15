@@ -1,0 +1,142 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrativo" as ADM
+
+participant ":DefinirCategoriaUI" as UI
+participant ":DefinircategoriaController" as CTRL
+participant ":Plataforma" as PLAT
+participant "lat:ListaAreasAtividade" as RAT
+participant "rct:RegistoCT" as RCT
+participant "rcat:ListaCategoriasTarefa" as RCAT
+participant "la\n:List<AreaAtividade>" as LIST_AT
+participant "at\n:AreaAtividade" as AT
+participant "cat\n:Categoria" as CAT
+participant "lct\n:List<CompetenciaTecnica>" as LIST_CT
+participant "ct:\nCompetenciaTecnica" as CT
+participant "cct\n:CaraterCT" as CARACT_CT
+participant "gr:Grau\nProficiencia" as GRAU
+database AreaAtividadeDB as aaDB 
+database CompetenciaTecnica as ctDB
+database GrauProficienciaDB as gpDB 
+database CategoriaTarefaDB as ctarefaDB
+
+
+activate ADM
+
+ADM -> UI : inicia a definição de nova categoria de tarefa
+activate UI
+
+UI -> CTRL : la=getListaAT()
+activate CTRL
+CTRL -> PLAT : lat=getLat()
+activate PLAT
+deactivate PLAT
+CTRL -> RAT : la=getListaAreasAtividade()
+activate RAT
+RAT -> aaDB : lat = getAll()
+activate aaDB
+deactivate aaDB
+deactivate RAT
+deactivate CTRL
+UI --> ADM: mostra a lista de áreas de atividade e solicita a descrição
+deactivate UI
+
+ADM -> UI : introduz a descrição e seleciona a área de atividade
+activate UI
+UI -> CTRL : lct=novaCategoria(desc, oArea, lCompTec)
+activate CTRL
+CTRL -> RAT : at=getAT(atCod)
+activate RAT
+deactivate RAT
+
+CTRL -> PLAT : rcat = getRegistoCategorias()
+activate PLAT
+deactivate PLAT
+
+CTRL -> RCAT : cat=novaCategoria(desc,at)
+activate RCAT
+RCAT -> RCAT : catId=geraCategoriaId()
+RCAT --> CAT** : cat = create(desc,aa,lcomptec)
+deactivate RCAT
+
+CTRL -> PLAT: rct = getRegistoCT()
+activate PLAT
+deactivate PLAT
+
+CTRL -> RCT : lct=getListaCT(at)
+activate RCT
+RCT -> ctDB : lct = getAllCompTec()
+activate ctDB
+deactivate ctDB
+deactivate RCT
+deactivate CTRL
+loop
+UI --> ADM : mostra lista de CT e solicita escolha de CT
+deactivate UI
+
+ADM -> UI : seleciona uma CT
+activate UI
+UI -> CTRL: lgraus=getGrausCT(ctCod)
+activate CTRL
+CTRL -> RCT: ct = getCT(ctCod)
+activate RCT
+deactivate RCT
+CTRL -> CT: lgraus = getGraus()
+activate CT
+deactivate CT
+deactivate CTRL
+
+UI --> ADM: mostra a lista de graus de proficiência associados
+deactivate UI
+
+ADM -> UI: seleciona grau minimo e indica se é obrigatória ou desejável
+
+activate UI
+UI -> CTRL : addCaraterCT(ctCod,valorGrau,ob)
+activate CTRL
+CTRL -> RCT : ct=getCT(ctCod)
+activate RCT
+deactivate RCT
+
+CTRL -> CT : gr = getGrauProficiencia(valorGrau)
+activate CT
+CT -> gpDB : lgraus = getAllGrausProf()
+activate gpDB 
+deactivate gpDB
+deactivate CT
+
+CTRL -> CAT : addCaraterCT(ct,gr, ob)
+activate CAT
+CAT --> CARACT_CT** : create(ct,gr, ob)
+CAT -> CAT : validaCaraterCT(cct)
+CAT -> CAT : addCaraterCT(cct)
+CAT -> gpDB : insertGP(gr)
+activate gpDB
+deactivate gpDB
+deactivate CAT
+|||
+deactivate CTRL
+end loop
+UI --> ADM : apresenta dados e solicita confirmação
+deactivate UI
+
+ADM -> UI : confirma
+activate UI
+UI -> CTRL : registaCategoria()
+activate CTRL
+CTRL -> RCAT : registaCategoria(cat)
+activate RCAT
+RCAT -> RCAT : validaCategoria(cat)
+RCAT -> RCAT : addCategoria(cat)
+RCAT -> ctarefaDB : insert(cat)
+activate ctarefaDB
+deactivate ctarefaDB
+UI --> ADM : informa sucesso da operação
+deactivate RCAT
+deactivate CTRL
+deactivate UI
+
+deactivate ADM
+
+@enduml

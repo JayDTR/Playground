@@ -1,0 +1,93 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+class Organizacao {
+  -String nome
+  -String NIF
+  -String website
+  -String telefone
+  -String email
+  +ListaTarefas getListaTarefas()
+  +Colaborador getColaboradorByEmail(email)
+}
+
+class ListaTarefas {
+  +List<Tarefa> getTarefaParaPublicar(c)
+  +Tarefa getTarefaParaPublicarByRef(ref, c)
+}
+
+class Tarefa {
+  -String referencia
+  -String designacao
+  -String descInformal
+  -String descTecnica
+  -Integer duracaoEst
+  -Double custoEst
+  +publicar(anu)
+}
+
+class Plataforma {
+  -String designacao
+  +RegistoOrganizacoes getRegistoOrganizacoes()
+  +RegistoTipoRegimento getRegistoTiposRegimento()
+  +RegistoAnuncios getRegistoAnuncios()
+}
+
+class RegistoTiposRegimento {
+  +List<TipoRegimento> getTiposRegimento()
+  +TipoRegimento getTipoRegimentoByDesc(desTR)
+}
+
+class RegistoOrganizacoes {
+  +Organizacao getOrganizacaoByEmailUtilizador(email)
+}
+
+class RegistoAnuncios {
+  +novoAnuncio(c,tarefa,dtIniP,dtFimP,dtIniC,dtFimC,dtIniS,dtFimS,regT)
+  +validaAnuncio(anu)
+  +registaAnuncio(anu)
+  -addAnuncio(anu)
+}
+
+class Anuncio {
+  -Date dtInicioPublicitacao
+  -Date dtFimPublicitacao
+  -Date dtInicioCandidatura
+  -Date dtFimCandidatura
+  -Date dtInicioSeriacao
+  -Date dtFimSeriacao
+  +Anuncio(c, tarefa,dtIniP,dtFimP,dtIniC,dtFimC,dtIniS,dtFimS,regT)
+}
+
+class PublicarTarefaController {
+  +getTarefasParaPublicar()
+  +selecionaTarefa(ref)
+  +getTiposRegimento()
+  +novoAnuncio(dtIniP,dtFimP,dtIniC,dtFimC,dtIniS,dtFimS,desTR)
+  +registaAnuncio()
+}
+
+class PublicarTarefaUI {
+}
+
+PublicarTarefaUI ..> PublicarTarefaController
+PublicarTarefaController ..> Plataforma
+Plataforma "1" --> "1" RegistoAnuncios : tem
+Plataforma "1" --> "1" RegistoTiposRegimento : tem
+Plataforma "1" --> "1" RegistoOrganizacoes : tem
+
+RegistoAnuncios "1" --> "*" Anuncio : publicita
+RegistoTiposRegimento "1" --> "*" TipoRegimento : suporta
+RegistoOrganizacoes "1" --> "*" Organizacao : tem registadas
+
+Organizacao "1" --> "1" ListaTarefas: tem
+ListaTarefas "1" --> "*" Tarefa: possui
+
+Tarefa "*" --> "1" Colaborador: especificada por
+
+Anuncio "0..1" --> "1" Tarefa: publicita
+Anuncio "0..1" <-- "1" Tarefa: dá origem
+Anuncio "*" --> "1" TipoRegimento: rege-se por
+Anuncio "*" --> "1" Colaborador: publicado por
+
+@enduml

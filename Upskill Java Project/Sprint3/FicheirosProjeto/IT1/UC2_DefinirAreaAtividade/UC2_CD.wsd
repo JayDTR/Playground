@@ -1,0 +1,41 @@
+@startuml
+skinparam classAttributeIconSize 0
+class AreaAtividade {
+  -String codigo
+  -String descBreve
+  -String descDetalhada
+  +AreaAtividade(String cod, String dsBreve, String dsDet)
+}
+
+class Plataforma {
+  -String designacao
+  
+  +ListaAreasAtividade getListaAreasAtividade()
+}
+
+class ListaAreasAtividade {
+  +AreaAtividade novaAreaAtividade(String cod, String dsBreve, String dsDet)
+  +validaAreaAtividade(AreaAtividade area)
+  +registaAreaAtividade(AreaAtividade area)
+  -addAreaAtividade(AreaAtividade area)
+}
+
+class DefinirAreaController {
+  +novaAreaAtividade(String cod, String dsBreve, String dsDet)
+  +registaAreaAtividade()
+}
+
+class DefinirAreaUI {
+  
+}
+
+DefinirAreaUI ..> DefinirAreaController
+DefinirAreaController ..> Plataforma
+DefinirAreaController ..> ListaAreasAtividade
+DefinirAreaController ..> AreaAtividade
+
+Plataforma "1" --> "1" ListaAreasAtividade : tem
+ListaAreasAtividade "1" --> "*" AreaAtividade : possui
+
+
+@enduml

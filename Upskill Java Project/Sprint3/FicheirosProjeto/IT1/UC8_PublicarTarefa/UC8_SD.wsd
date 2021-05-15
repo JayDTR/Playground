@@ -1,0 +1,155 @@
+@startuml
+autonumber
+hide footbox
+actor "Colaborador de Organização" as ADM
+
+participant ":RegistarAnuncioUI" as UI
+participant ":RegistarAnuncioController" as CTRL
+participant "AplicacaoPOT" as _APP
+participant "app\n:AplicacaoPOT" as APP
+participant "sessao\n:SessaoUtilizador" as SESSAO
+participant ":Plataforma" as PLAT
+participant "ro\n:RegistoOrganizacoes" as RO
+participant "reg\n:RegistoTiposRegimento" as RTREG
+participant "org\n:Organizacao" as ORG
+participant "c\n:Colaborador" as COLAB
+participant "ra\n:RegistoAnuncios" as RA
+participant "ltaf \ n:ListaTarefas" as LTAF
+participant "tarefa\n:Tarefa" as TAREFA
+participant "anu\n:Anuncio" as ANU
+database OrganizacaoDB as orgDB 
+database TarefaDB as tafDB
+database TipoRegimentoDB as regDB
+database AnuncioDB as anunDB
+
+activate ADM
+ADM -> UI : inicia a publicação de uma tarefa
+activate UI
+
+UI -> CTRL : lstT = getTarefasParaPublicar()
+activate CTRL
+
+CTRL -> _APP: app = getInstance()
+activate _APP
+|||
+deactivate _APP
+
+CTRL -> APP: sessao = getSessaoAtual()
+activate APP
+|||
+deactivate APP
+
+CTRL -> SESSAO: email = getEmailUtilizador()
+activate SESSAO
+|||
+deactivate SESSAO
+
+CTRL -> PLAT: ro = getRegistoOrganizacoes()
+activate PLAT
+deactivate PLAT
+
+CTRL -> RO: org = getOrganizacaoByEmailUtilizador(email)
+activate RO
+deactivate RO
+
+CTRL -> ORG: c = getColaboradorByEmail(email)
+activate ORG
+deactivate ORG
+
+CTRL -> ORG: ltaf = getListaTarefas()
+activate ORG
+deactivate ORG
+
+CTRL -> LTAF: lstT=getTarefasParaPublicar(c)
+activate LTAF
+LTAF -> tafDB : getAll()
+deactivate LTAF
+deactivate CTRL
+
+UI --> ADM : mostra a lista de tarefas para publicação e pede para selecionar uma
+deactivate UI
+
+ADM -> UI : seleciona a tarefa
+activate UI
+
+UI -> CTRL : selecionaTarefa(ref)
+activate CTRL
+
+CTRL -> LTAF: tarefa = getTarefaParaPublicarByRef(ref, c)
+activate LTAF
+deactivate LTAF
+deactivate CTRL
+
+UI --> ADM : solicita os dados \n((i.e. período de publicação, período de apresentação de candidaturas, \nperíodo de seriação, período de decisão e tipo de regimento)
+deactivate UI
+
+ADM -> UI : introduz os dados solicitados
+activate UI
+
+UI -> CTRL: listaTiposReg = getTiposRegimento()
+activate CTRL
+CTRL -> PLAT: reg = getRegistoTiposRegimento()
+activate PLAT
+deactivate PLAT
+
+CTRL -> RTREG : listaTiposReg = getTiposRegimento()
+activate RTREG
+RTREG -> regDB : getAll()
+activate regDB
+deactivate regDB
+deactivate RTREG
+deactivate CTRL
+
+UI --> ADM: mostra tipos regimento e pede para selecionar uma
+deactivate UI
+
+ADM -> UI: seleciona tipo regimento
+activate UI
+UI -> CTRL : novoAnuncio(dateIniP, dateFimP, dateIniC, dateFimC, dateIniS, dateFimS, descTR)
+activate CTRL
+
+CTRL -> RTREG : regT = getTipoRegimentoByDescricao(descTR)
+activate RTREG
+deactivate RTREG
+
+CTRL -> PLAT: ra = getRegistoAnuncios()
+activate PLAT
+deactivate PLAT
+
+CTRL -> RA : novoAnuncio(c, tarefa, dateIniP, dateFimP, dateIniC, dateFimC, dateIniS, dateFimS, regT)
+activate RA
+
+RA --> ANU ** : anun = create(c,tarefa, dateIniP, dateFimP, dateIniC, dateFimC, dateIniS, dateFimS,regT)
+deactivate RA
+
+CTRL -> RA : validaAnuncio(anun)
+activate RA
+deactivate RA
+deactivate CTRL
+
+UI --> ADM: apresenta os dados e solicita confirmação
+deactivate UI
+
+ADM -> UI : confirma os dados
+activate UI
+
+UI -> CTRL : registaAnuncio()
+activate CTRL
+
+CTRL -> RA : registaAnuncio(anun)
+activate RA
+RA -> RA : validaAnuncio(anun)
+RA -> TAREFA : publicar(anun)
+activate TAREFA
+deactivate TAREFA
+RA -> RA: addAnuncio(anun)
+RA -> anunDB : save(anun)
+activate anunDB
+deactivate anunDB
+deactivate RA
+deactivate CTRL
+
+UI --> ADM : informa do sucesso da operação
+deactivate ADM
+
+@enduml

@@ -1,0 +1,100 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrativo" as ADM
+
+participant ":RegistarFreelancerUI" as UI
+participant ":RegistarFreelancerController" as CTRL
+participant ":Plataforma" as PLAT
+participant "rfr: RegistoFreelancer" as RF
+participant "fr: Freelancer" as FR
+participant "ha: HabilitacaoAcademica" as HA
+participant "rct: ReconhecimentoCompetenciaTecnica" as RCT
+participant "ep: EnderecoPostal" as EP
+participant "af: AutorizacaoFacade" as AF
+
+
+activate ADM
+
+ADM -> UI : inicia o registo de um freelancer
+activate UI
+UI --> ADM : solicita os dados do freelancer (i.e., o nome, o NIF, o endereço postal, um contacto telefónico e email)
+deactivate UI
+
+ADM -> UI : introduz os dados solicitados
+activate UI
+UI -> CTRL : novoFreelancer(nome, nif, codPostal, tlf, email)
+activate CTRL
+CTRL -> PLAT : rfr=getRegistoFreelancer()
+activate PLAT
+deactivate PLAT
+CTRL -> RF : novoFreelancer(nome, nif, codPostal, tlf, email)
+activate RF
+RF --> FR** : create(nome, nif, codPostal, tlf, email)
+FR --> EP** : create(codPostal)
+deactivate FR
+deactivate RF
+deactivate CTRL
+
+loop
+UI --> ADM : solicita a introdução de uma habilitação académica (grau, designação do curso, instituição e média do curso)
+deactivate UI
+ADM -> UI : introduz os dados solicitados
+activate UI
+UI -> CTRL : novaHabilitacaoAcademica(grau, nomeCurso, fac, media)
+activate CTRL
+CTRL -> RF : novaHabilitacaoAcademica(grau, nomeCurso, fac, media)
+activate RF
+RF -> FR : novaHabilitacaoAcademica(grau, nomeCurso, fac, media)
+activate FR
+FR -> HA** : create(grau, nomeCurso, fac, media)
+
+deactivate FR
+deactivate RF
+
+deactivate CTRL
+end loop
+
+loop
+UI --> ADM : solicita a introdução de reconhecimento de competências técnicas (data, competência técnica, grau de proficiência)
+deactivate UI
+ADM -> UI : introduz os dados solicitados
+activate UI
+UI -> CTRL : novoReconhecimentoCT(data, compTecnica, grauProficiencia)
+activate CTRL
+CTRL -> RF : novoReconhecimentoCT(data, compTecnica, grauProficiencia)
+activate RF
+RF -> FR : novoReconhecimentoCT(data, compTecnica, grauProficiencia)
+activate FR
+FR -> RCT** : create(data, compTecnica, grauProficiencia)
+deactivate FR
+deactivate RF
+end loop 
+
+
+CTRL -> RF : validaFreelancer()
+activate RF
+deactivate RF
+deactivate CTRL
+
+
+UI --> ADM : apresenta dados e solicita confirmação
+deactivate UI
+
+ADM -> UI : confirma
+activate UI
+UI -> CTRL : registaFreelancer()
+activate CTRL
+CTRL -> RF : registaFreelancer(fr)
+activate RF
+RF -> RF : validaFreelancer(fr)
+ref over RF : SD_RegistaFreelancerComoUtilizador
+RF -> RF : addFreelancer(fr)
+UI --> ADM : informa sucesso da operação
+deactivate RF
+deactivate CTRL
+deactivate UI
+
+deactivate ADM
+
+@enduml

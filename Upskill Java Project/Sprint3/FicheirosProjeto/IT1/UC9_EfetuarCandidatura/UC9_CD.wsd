@@ -1,0 +1,87 @@
+@startuml
+skinparam classAttributeIconSize 0
+left to right direction
+
+class RegistarCandidaturaUI {
+}
+
+class RegistarCandidaturaController {
+  +getAnunciosElegiveisDoFreelancer()
+  +novaCandidatura(anuncioId,valorPrt,nrDias,txtApres,txtMotiv)
+  +registaCandidatura()
+}
+
+class Plataforma {
+    -String designacao
+    +getRegistoFreelancers
+    +getRegistoAnuncios()
+}
+
+class RegistoFreelancer
+{
+ +getFreelancerByEmail(email)
+}
+
+class RegistoAnuncios
+{
+  +getAnunciosElegiveisDoFreelancer(freel)
+  +getAnuncioById(anuncioId)
+}
+
+class Freelancer {
+    -String nome
+    -String NIF
+    -String telefone
+    -String email
+}
+
+class Anuncio
+{
+    -Date dtInicioPublicitacao
+    -Date dtFimPublicitacao
+    -Date dtInicioCandidatura
+    -Date dtFimCandidatura
+    -Date dtInicioSeriacao
+    -Date dtFimSeriacao
+    +novaCandidatura(freel,dataCand,valorPrt,nrDias,txtApres,txtMotiv)
+    +aceitaCandidaturas()
+    +éFreelancerElegivel(freel)
+    +registaCandidatura(cand)
+}
+
+class ListaCandidaturas
+{
+  +novaCandidatura(freel,dataCand,valorPrt,nrDias,txtApres,txtMotiv)
+  +registaCandidatura(cand)
+  -validaCandidatura(cand)
+  -addCandidatura(cand)
+}
+
+class Candidatura
+{
+    -Date dataCandidatura
+    -Double valorPretendido
+    -Integer nrDias
+    -String txtApresentacao
+    -String txtMotivacao
+    +Candidatura(freel,dataCand,valorPrt,nrDias,txtApres,txtMotiv)
+}
+
+RegistarCandidaturaUI ..> RegistarCandidaturaController
+RegistarCandidaturaController ..> Plataforma
+RegistarCandidaturaController ..> RegistoFreelancer
+RegistarCandidaturaController ..> RegistoAnuncios
+
+Plataforma "1" --> "1" RegistoAnuncios : possui
+Plataforma "1" --> "1" RegistoFreelancer : possui
+
+RegistoAnuncios "1" --> "*" Anuncio : agrega
+Anuncio "1" --> "1" ListaCandidaturas : possui
+ListaCandidaturas "1" --> "*" Candidatura : agrega
+
+Candidatura "*" --> "1"  Freelancer: realizada por >
+
+RegistoFreelancer "1" --> "*" Freelancer: agrega
+
+
+@enduml

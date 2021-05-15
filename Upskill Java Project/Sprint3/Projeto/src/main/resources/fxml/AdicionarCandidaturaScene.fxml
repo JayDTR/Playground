@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="421.0" prefWidth="387.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.ui.AdicionarCandidaturaUI">
+   <center>
+      <StackPane minHeight="-Infinity" minWidth="-Infinity" prefHeight="422.0" prefWidth="385.0" BorderPane.alignment="CENTER">
+         <children>
+            <Pane prefHeight="422.0" prefWidth="380.0">
+               <children>
+                  <TextField fx:id="txtValorPretendido" layoutX="110.0" layoutY="52.0" prefHeight="30.0" prefWidth="200.0" promptText="Valor Pretendido (em POTS)">
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                  </TextField>
+                  <TextField fx:id="txtNrDias" layoutX="110.0" layoutY="90.0" prefHeight="30.0" prefWidth="200.0" promptText="Tempo de execução (em dias)">
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                  </TextField>
+                  <TextArea fx:id="txtApr" layoutX="110.0" layoutY="128.0" prefHeight="100.0" prefWidth="200.0" promptText="Texto de apresentação (opcional)">
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                  </TextArea>
+                  <TextArea fx:id="txtMotiv" layoutX="110.0" layoutY="238.0" prefHeight="123.0" prefWidth="200.0" promptText="Texto de motivação     (opcional)">
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                  </TextArea>
+                  <Button fx:id="btnAdicionarCandidatura" defaultButton="true" layoutX="110.0" layoutY="370.0" mnemonicParsing="false" onAction="#actionAdicionarCandidatura" prefHeight="30.0" prefWidth="200.0" text="Adicionar">
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnCancel" layoutX="14.0" layoutY="371.0" mnemonicParsing="false" onAction="#actionCancel" text="Cancelar">
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="162.0" layoutY="15.0" text="Candidatura">
+                     <font>
+                        <Font name="Helvetica" size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </StackPane>
+   </center>
+</BorderPane>

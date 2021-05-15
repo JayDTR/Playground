@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="551.0" prefWidth="804.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.ui.TabAnunciosDisponiveisUI">
+   <center>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane prefHeight="544.0" prefWidth="804.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="512.0" minHeight="10.0" prefHeight="511.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="195.0" minHeight="10.0" prefHeight="33.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <TableView fx:id="tableViewAnuncio" onMouseClicked="#clkAnuncio" prefHeight="200.0" prefWidth="200.0">
+                    <columns>
+                      <TableColumn fx:id="tableViewAnuncioId" prefWidth="100.0" text="Id Anuncio" />
+                      <TableColumn fx:id="tableViewDesignacao" prefWidth="139.0" text="Designação" />
+                        <TableColumn fx:id="tableViewDescInformal" prefWidth="159.0" text="Descrição Informal" />
+                        <TableColumn fx:id="tableViewDescTecnica" prefWidth="295.0" text="Descrição Tecnica" />
+                        <TableColumn fx:id="tableViewTipoRegimento" prefWidth="109.0" text="Tipo Regimento" />
+                    </columns>
+                  </TableView>
+                  <Button fx:id="btnCandidatarAnuncio" defaultButton="true" mnemonicParsing="false" onAction="#actionCandidatarAnuncio" prefHeight="30.0" prefWidth="200.0" text="Candidatar ao anúncio" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets right="20.0" top="5.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font name="Helvetica" size="13.0" />
+                     </font>
+                  </Button>
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

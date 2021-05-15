@@ -1,0 +1,122 @@
+@startuml
+autonumber
+'hide footbox
+actor "Administrativo" as ADM
+
+participant ":EspecificarCompetenciaTecnicaUI" as UI
+participant ":EspecificarCompetenciaTecnicaController" as CTRL
+participant ":Plataforma" as PLAT
+participant "rat:Lista\nAreasAtividade" as RAT
+participant "rct:RegistoCT" as RCT
+participant "ct\n:CompetenciaTecnica" as COMPETENCIA
+participant "grau\n:GrauProficiencia" as GP
+participant "rg\n:RegistoGrauProficiencia" as LGRAUS
+participant "la\n:List<AreaAtividade>" as LISTA_AREAS
+participant "at\n:AreaAtividade" as AREA
+database AreaAtividadeDB as aaDB 
+database CompetenciaTecnicaDB as ctDB
+database GrauProficienciaDB as gpDB
+
+activate ADM
+ADM -> UI : inicia a especificação de uma competência técnica
+activate UI
+UI --> ADM : solicita os dados \n(código único, descrição breve e detalhada)
+deactivate UI
+
+ADM -> UI : introduz os dados solicitados
+activate UI
+
+UI -> CTRL : la=getAreasAtividade()
+activate CTRL
+
+CTRL -> PLAT : rat = getRegistoAreasAtividade()
+activate PLAT
+deactivate PLAT
+
+CTRL -> RAT : la=getAreasAtividade()
+RAT -> aaDB : listaAA = getAll()
+activate aaDB 
+deactivate aaDB
+activate RAT
+deactivate RAT
+
+UI --> ADM : mostra a lista de áreas de atividade e pede para selecionar uma
+deactivate CTRL
+deactivate UI
+
+ADM -> UI : seleciona uma área de atividade
+activate UI
+
+UI -> CTRL : novaCompetencia(cod,dsBreve,dsDet,atCod)
+activate CTRL
+
+CTRL -> RAT: aa=getAreaAtividadeById(aaId)
+activate RAT
+deactivate RAT
+
+CTRL -> PLAT: rct=getRegistoCT()
+activate PLAT
+deactivate PLAT
+
+
+CTRL -> RCT: ct=novaCompetencia(cod,dsBreve,dsDet,at)
+activate RCT
+
+RCT --> COMPETENCIA**: ct = create(cod,dsBreve,dsDet,at)
+activate COMPETENCIA
+COMPETENCIA --> LGRAUS**: create()
+deactivate COMPETENCIA
+deactivate RCT
+deactivate CTRL
+
+loop
+UI --> ADM : solicita os vários graus de proficiência aplicaveis
+deactivate UI
+
+ADM -> UI : introduz os dados de cada grau
+activate UI
+
+UI -> CTRL :  addGrauProficiencia(valor, designacao)
+activate CTRL
+
+CTRL -> COMPETENCIA : addGrauProficiencia(valor, designacao, ct)
+activate COMPETENCIA
+
+COMPETENCIA -> GP** : gp = create(valor,designacao, ct)
+
+COMPETENCIA -> LGRAUS: add(gp)
+LGRAUS -> gpDB : insertGP(gp)
+activate gpDB
+deactivate gpDB
+deactivate COMPETENCIA
+deactivate CTRL
+
+end loop
+
+UI --> ADM : apresenta os dados e solicita confirmação
+deactivate PLAT
+deactivate CTRL
+deactivate UI
+
+ADM -> UI : confirma os dados
+activate UI
+UI -> CTRL : registaCompetencia()
+activate CTRL
+
+CTRL -> RCT : registaCompetencia(ct)
+activate RCT
+
+RCT -> RCT : validaCompetencia(ct)
+RCT -> RCT : addCompetencia(ct)
+RCT -> ctDB : insertCT(ct)
+activate ctDB
+deactivate ctDB
+
+UI --> ADM : informa do sucesso da operação
+deactivate RCT
+deactivate CTRL
+deactivate UI
+
+deactivate ADM
+
+@enduml

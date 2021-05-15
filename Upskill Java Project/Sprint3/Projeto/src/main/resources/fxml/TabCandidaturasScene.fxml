@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="545.0" prefWidth="799.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.ui.TabCandidaturasUI">
+   <center>
+      <AnchorPane prefHeight="507.0" prefWidth="774.0" BorderPane.alignment="CENTER">
+         <children>
+            <TableView fx:id="tableViewCandidatura" prefHeight="545.0" prefWidth="799.0">
+              <columns>
+                <TableColumn fx:id="tableViewIdAnuncio" prefWidth="166.0" text="Codigo Anuncio" />
+                <TableColumn fx:id="tableViewDataCand" prefWidth="216.0" text="Data Candidatura" />
+                  <TableColumn fx:id="tableViewValorPretendido" prefWidth="181.0" text="Valor (POTS)" />
+                  <TableColumn fx:id="tableViewNrDias" prefWidth="241.0" text="Tempo Execucao" />
+              </columns>
+            </TableView>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>

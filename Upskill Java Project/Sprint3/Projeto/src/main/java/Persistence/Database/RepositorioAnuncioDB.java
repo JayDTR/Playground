@@ -1,0 +1,40 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package Persistence.Database;
+
+import Persistence.RepositorioAnuncio;
+import com.company.data.DataHandler;
+import com.company.model.Anuncio;
+import com.company.model.Organizacao;
+import java.util.List;
+
+/**
+ *
+ * @author joaor
+ */
+public class RepositorioAnuncioDB extends DataHandler implements RepositorioAnuncio {
+
+    @Override
+    public boolean save(Anuncio anuncio) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public Anuncio find(String referencia) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public List<Anuncio> getAll() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    @Override
+    public List<Anuncio> getAnunciosByOrg(Organizacao org) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+    
+}

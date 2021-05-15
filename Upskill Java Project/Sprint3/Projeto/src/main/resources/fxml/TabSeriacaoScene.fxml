@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.ui.TabSeriacaoUI">
+   <children>
+      <BorderPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="536.0" prefWidth="804.0">
+         <center>
+            <AnchorPane prefHeight="545.0" prefWidth="804.0" BorderPane.alignment="CENTER">
+               <children>
+                  <GridPane layoutX="1.0" prefHeight="544.0" prefWidth="803.0">
+                     <children>
+                        <TableView fx:id="tableViewAnunciosSeriac" onMouseClicked="#clickedAnuncio" prefHeight="547.0" prefWidth="464.0">
+                           <columns>
+                              <TableColumn fx:id="tableViewAnunciosSeriacData" prefWidth="155.0" text="Data de Realização" />
+                              <TableColumn fx:id="tableViewAnunciosSeriacNifColab" prefWidth="212.0" text="Colaborador" />
+                              <TableColumn fx:id="tableViewAnunciosSeriacidAnuncio" prefWidth="96.0" text="idAnúncio" />
+                           </columns>
+                        </TableView>
+                        <GridPane prefHeight="507.0" prefWidth="386.0" GridPane.columnIndex="1">
+                          <columnConstraints>
+                            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                          </columnConstraints>
+                          <rowConstraints>
+                            <RowConstraints maxHeight="249.0" minHeight="10.0" prefHeight="27.0" vgrow="SOMETIMES" />
+                            <RowConstraints maxHeight="480.0" minHeight="10.0" prefHeight="480.0" vgrow="SOMETIMES" />
+                          </rowConstraints>
+                           <children>
+                              <Label text="Classificação" GridPane.halignment="CENTER">
+                                 <font>
+                                    <Font name="Helvetica Light" size="13.0" />
+                                 </font>
+                              </Label>
+                              <TableView fx:id="tableViewClassific" prefHeight="200.0" prefWidth="200.0" GridPane.rowIndex="1">
+                                <columns>
+                                    <TableColumn fx:id="tableViewClassificPos" prefWidth="47.0" text="Pos" />
+                                    <TableColumn fx:id="tableViewClassificidCand" prefWidth="101.0" text="idCandidatura" />
+                                    <TableColumn fx:id="tableViewClassifNifFreelancer" prefWidth="190.0" text="Candidato" />
+                                </columns>
+                              </TableView>
+                           </children>
+                        </GridPane>
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="464.0" minWidth="10.0" prefWidth="464.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="396.0" minWidth="10.0" prefWidth="339.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints maxHeight="539.0" minHeight="10.0" prefHeight="503.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
