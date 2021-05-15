@@ -1,0 +1,13 @@
+<div>
+  <div class="row">
+    <div class="col-xs-12">
+      <app-GameControl (intervalFired)="onIntervalFired($event)"></app-GameControl>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <app-Odd *ngFor="let number of numbers" [number]="number">
+      </app-Odd>
+    </div>
+  </div>
+</div>
